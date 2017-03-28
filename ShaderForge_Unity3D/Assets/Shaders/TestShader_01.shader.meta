@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 8e6c4bb4f7dcc394797c724c1d5663be
+timeCreated: 1490718345
+licenseType: Pro
+ShaderImporter:
+  defaultTextures:
+  - _Texture2D: {fileID: 2800000, guid: c593e3a4f64c1ba46b47f535a9bd2204, type: 3}
+  - _Normal2D: {fileID: 2800000, guid: 3460a82732949ef46853fd1c8ccac4fc, type: 3}
+  - _SpacularTexture2D: {fileID: 2800000, guid: c593e3a4f64c1ba46b47f535a9bd2204,
+      type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

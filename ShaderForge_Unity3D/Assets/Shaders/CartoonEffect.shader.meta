@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: cf2303e06b392fa499317763ad9402fd
+timeCreated: 1490722012
+licenseType: Pro
+ShaderImporter:
+  defaultTextures:
+  - _Clamp: {fileID: 2800000, guid: abbafe24419a0b0498da6a154be75481, type: 3}
+  - _Texture: {fileID: 2800000, guid: c593e3a4f64c1ba46b47f535a9bd2204, type: 3}
+  - _NormalMap: {fileID: 2800000, guid: 3460a82732949ef46853fd1c8ccac4fc, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
