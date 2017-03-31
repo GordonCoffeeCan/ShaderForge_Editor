@@ -286,6 +286,7 @@
     <None Include="Assets\ShaderForge\Example Assets\Shaders\VertexAnimation.shader" />
     <None Include="Assets\ShaderForge\Example Assets\Shaders\VertexColorRounding.shader" />
     <None Include="Assets\ShaderForge\Readme.txt" />
+    <None Include="Assets\Shaders\Transparent.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
