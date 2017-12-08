@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2017
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShaderForge_Unity3D", "ShaderForge_Unity3D.csproj", "{94A719E2-8BA2-2CD5-8716-C76574B75326}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShaderForge_Unity3D.Plugins", "ShaderForge_Unity3D.Plugins.csproj", "{7EC3BFE8-4AB2-F2DF-7850-2DF7B04C1D39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShaderForge_Unity3D", "ShaderForge_Unity3D.csproj", "{94A719E2-8BA2-2CD5-8716-C76574B75326}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShaderForge_Unity3D.Editor", "ShaderForge_Unity3D.Editor.csproj", "{8DC25051-6CF2-864C-498D-A5FA9A6FFB00}"
 EndProject
@@ -15,14 +15,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{94A719E2-8BA2-2CD5-8716-C76574B75326}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{94A719E2-8BA2-2CD5-8716-C76574B75326}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{94A719E2-8BA2-2CD5-8716-C76574B75326}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{94A719E2-8BA2-2CD5-8716-C76574B75326}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7EC3BFE8-4AB2-F2DF-7850-2DF7B04C1D39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7EC3BFE8-4AB2-F2DF-7850-2DF7B04C1D39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7EC3BFE8-4AB2-F2DF-7850-2DF7B04C1D39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7EC3BFE8-4AB2-F2DF-7850-2DF7B04C1D39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94A719E2-8BA2-2CD5-8716-C76574B75326}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94A719E2-8BA2-2CD5-8716-C76574B75326}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94A719E2-8BA2-2CD5-8716-C76574B75326}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94A719E2-8BA2-2CD5-8716-C76574B75326}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8DC25051-6CF2-864C-498D-A5FA9A6FFB00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8DC25051-6CF2-864C-498D-A5FA9A6FFB00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DC25051-6CF2-864C-498D-A5FA9A6FFB00}.Release|Any CPU.ActiveCfg = Release|Any CPU
