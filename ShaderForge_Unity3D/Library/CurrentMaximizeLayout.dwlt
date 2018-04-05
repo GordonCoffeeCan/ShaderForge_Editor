@@ -19,10 +19,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 957
-  m_MinSize: {x: 921, y: 342}
-  m_MaxSize: {x: 26016, y: 10021}
+  m_MinSize: {x: 911, y: 342}
+  m_MaxSize: {x: 26006, y: 10000}
   vertical: 1
-  controlID: 21774
+  controlID: 185
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -114,18 +114,18 @@ MonoBehaviour:
   m_Children:
   - {fileID: 4}
   - {fileID: 6}
-  - {fileID: 16}
-  - {fileID: 18}
+  - {fileID: 17}
+  - {fileID: 19}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
     width: 1920
     height: 957
-  m_MinSize: {x: 921, y: 342}
-  m_MaxSize: {x: 26016, y: 10021}
+  m_MinSize: {x: 911, y: 342}
+  m_MaxSize: {x: 26006, y: 10000}
   vertical: 0
-  controlID: 21775
+  controlID: 186
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,8 +144,8 @@ MonoBehaviour:
     y: 0
     width: 202
     height: 957
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 5}
   m_Panes:
   - {fileID: 5}
@@ -180,9 +180,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 1292ffff
-    m_LastClickedID: -28142
-    m_ExpandedIDs: 76f3ffff00000000f03e0000
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 96fbffff00000000b2330000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -225,10 +225,10 @@ MonoBehaviour:
     y: 0
     width: 1207
     height: 957
-  m_MinSize: {x: 208, y: 342}
-  m_MaxSize: {x: 8008, y: 8042}
+  m_MinSize: {x: 204, y: 342}
+  m_MaxSize: {x: 8004, y: 8042}
   vertical: 1
-  controlID: 21776
+  controlID: 123
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -246,7 +246,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1207
-    height: 581
+    height: 376
   m_MinSize: {x: 204, y: 221}
   m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 8}
@@ -281,17 +281,17 @@ MonoBehaviour:
     x: 204
     y: 92
     width: 1203
-    height: 560
+    height: 355
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 14118.00279031768
+  lastFramingTime: 108.27276121216144
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.40322733, y: -0.09919965, z: -0.9113562}
+    m_Target: {x: 0.41999996, y: 0.7, z: -1.13}
     speed: 2
-    m_Value: {x: 0.40322733, y: -0.09919965, z: -0.9113562}
+    m_Value: {x: 0.41999996, y: 0.7, z: -1.13}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -315,13 +315,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.013543854, y: 0.976769, z: -0.20391488, w: 0.06485369}
+    m_Target: {x: 0.052851398, y: 0.94641733, z: -0.2049969, w: 0.24397886}
     speed: 2
-    m_Value: {x: 0.013543854, y: 0.976769, z: -0.20391488, w: 0.06485369}
+    m_Value: {x: 0.05285012, y: 0.94639444, z: -0.20499194, w: 0.24397296}
   m_Size:
-    m_Target: 7.299655
+    m_Target: 3.6300004
     speed: 2
-    m_Value: 7.299655
+    m_Value: 3.6300004
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -420,13 +420,13 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 581
+    y: 376
     width: 1207
-    height: 376
-  m_MinSize: {x: 208, y: 121}
-  m_MaxSize: {x: 8008, y: 4021}
+    height: 581
+  m_MinSize: {x: 204, y: 121}
+  m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
-  controlID: 21777
+  controlID: 124
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -443,10 +443,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 389
-    height: 376
-  m_MinSize: {x: 104, y: 121}
-  m_MaxSize: {x: 4004, y: 4021}
+    width: 80
+    height: 581
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -475,9 +475,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 204
-    y: 673
-    width: 385
-    height: 355
+    y: 468
+    width: 76
+    height: 560
   m_PersistentViewDataDictionary: {fileID: 0}
 --- !u!114 &14
 MonoBehaviour:
@@ -493,18 +493,19 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 389
+    x: 80
     y: 0
-    width: 818
-    height: 376
+    width: 1127
+    height: 581
   m_MinSize: {x: 104, y: 121}
   m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 2}
   m_Panes:
   - {fileID: 2}
   - {fileID: 15}
+  - {fileID: 16}
   m_Selected: 0
-  m_LastSelected: 1
+  m_LastSelected: 2
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -541,6 +542,1048 @@ MonoBehaviour:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1084893008, guid: 08443a5b77d963441a8fd8ae06b00101, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AutoRepaintOnSceneChange: 0
+  m_MinSize: {x: 1408, y: 560}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Shader Forge
+    m_Image: {fileID: 2800000, guid: 7aae165d391b84eddbed5fd0ec9e6460, type: 3}
+    m_Tooltip: 
+  m_DepthBufferBits: 0
+  m_Pos:
+    serializedVersion: 2
+    x: 284
+    y: 468
+    width: 1123
+    height: 560
+  m_PersistentViewDataDictionary: {fileID: 0}
+  shaderEvaluator:
+    editor: {fileID: 16}
+    cNodes:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    ghostNodes: []
+    scope: 0
+    shaderString: "Shader \"Shader Forge/DesolveOrb\" {\n    Properties {\n        _DissolveAmount
+      (\"Dissolve Amount\", Range(0, 1)) = 0.448871\n        _Noise (\"Noise\", 2D)
+      = \"white\" {}\n        _Ramp (\"Ramp\", 2D) = \"white\" {}\n        _DiffuseTexture
+      (\"Diffuse Texture\", 2D) = \"white\" {}\n        [HideInInspector]_Cutoff (\"Alpha
+      cutoff\", Range(0,1)) = 0.5\n    }\n    SubShader {\n        Tags {\n            \"Queue\"=\"AlphaTest\"\n
+      \           \"RenderType\"=\"TransparentCutout\"\n        }\n        Pass {\n
+      \           Name \"FORWARD\"\n            Tags {\n                \"LightMode\"=\"ForwardBase\"\n
+      \           }\n            Cull Off\n            \n            \n            CGPROGRAM\n
+      \           #pragma vertex vert\n            #pragma fragment frag\n            #define
+      UNITY_PASS_FORWARDBASE\n            #include \"UnityCG.cginc\"\n            #include
+      \"AutoLight.cginc\"\n            #pragma multi_compile_fwdbase_fullshadows\n
+      \           #pragma multi_compile_fog\n            #pragma only_renderers d3d9
+      d3d11 glcore gles \n            #pragma target 3.0\n            uniform float4
+      _LightColor0;\n            uniform sampler2D _Noise; uniform float4 _Noise_ST;\n
+      \           uniform float _DissolveAmount;\n            uniform sampler2D _Ramp;
+      uniform float4 _Ramp_ST;\n            uniform sampler2D _DiffuseTexture; uniform
+      float4 _DiffuseTexture_ST;\n            struct VertexInput {\n                float4
+      vertex : POSITION;\n                float3 normal : NORMAL;\n                float2
+      texcoord0 : TEXCOORD0;\n            };\n            struct VertexOutput {\n
+      \               float4 pos : SV_POSITION;\n                float2 uv0 : TEXCOORD0;\n
+      \               float4 posWorld : TEXCOORD1;\n                float3 normalDir
+      : TEXCOORD2;\n                LIGHTING_COORDS(3,4)\n                UNITY_FOG_COORDS(5)\n
+      \           };\n            VertexOutput vert (VertexInput v) {\n                VertexOutput
+      o = (VertexOutput)0;\n                o.uv0 = v.texcoord0;\n                o.normalDir
+      = UnityObjectToWorldNormal(v.normal);\n                o.posWorld = mul(unity_ObjectToWorld,
+      v.vertex);\n                float3 lightColor = _LightColor0.rgb;\n                o.pos
+      = UnityObjectToClipPos( v.vertex );\n                UNITY_TRANSFER_FOG(o,o.pos);\n
+      \               TRANSFER_VERTEX_TO_FRAGMENT(o)\n                return o;\n
+      \           }\n            float4 frag(VertexOutput i, float facing : VFACE)
+      : COLOR {\n                float isFrontFace = ( facing >= 0 ? 1 : 0 );\n                float
+      faceSign = ( facing >= 0 ? 1 : -1 );\n                i.normalDir = normalize(i.normalDir);\n
+      \               i.normalDir *= faceSign;\n                float3 viewDirection
+      = normalize(_WorldSpaceCameraPos.xyz - i.posWorld.xyz);\n                float3
+      normalDirection = i.normalDir;\n                float4 node_2004 = _Time;\n
+      \               float2 node_7339 = (i.uv0+node_2004.g*float2(0.1,0.1));\n                float4
+      _Noise_var = tex2D(_Noise,TRANSFORM_TEX(node_7339, _Noise));\n                float
+      node_8419 = (((1.0 - _DissolveAmount)*1.3+-0.65)+_Noise_var.r);\n                clip(node_8419
+      - 0.5);\n                float3 lightDirection = normalize(_WorldSpaceLightPos0.xyz);\n
+      \               float3 lightColor = _LightColor0.rgb;\n////// Lighting:\n                float
+      attenuation = LIGHT_ATTENUATION(i);\n                float3 attenColor = attenuation
+      * _LightColor0.xyz;\n/////// Diffuse:\n                float NdotL = max(0.0,dot(
+      normalDirection, lightDirection ));\n                float3 directDiffuse =
+      max( 0.0, NdotL) * attenColor;\n                float3 indirectDiffuse = float3(0,0,0);\n
+      \               indirectDiffuse += UNITY_LIGHTMODEL_AMBIENT.rgb; // Ambient
+      Light\n                float4 _DiffuseTexture_var = tex2D(_DiffuseTexture,TRANSFORM_TEX(i.uv0,
+      _DiffuseTexture));\n                float3 diffuseColor = _DiffuseTexture_var.rgb;\n
+      \               float3 diffuse = (directDiffuse + indirectDiffuse) * diffuseColor;\n//////
+      Emissive:\n                float node_4212 = (node_8419*8.0+-4.0);\n                float2
+      node_9038 = float2((1.0 - saturate(node_4212)),0.0);\n                float4
+      node_9405 = tex2D(_Ramp,TRANSFORM_TEX(node_9038, _Ramp));\n                float3
+      emissive = node_9405.rgb;\n/// Final Color:\n                float3 finalColor
+      = diffuse + emissive;\n                fixed4 finalRGBA = fixed4(finalColor,1);\n
+      \               UNITY_APPLY_FOG(i.fogCoord, finalRGBA);\n                return
+      finalRGBA;\n            }\n            ENDCG\n        }\n        Pass {\n            Name
+      \"FORWARD_DELTA\"\n            Tags {\n                \"LightMode\"=\"ForwardAdd\"\n
+      \           }\n            Blend One One\n            Cull Off\n            \n
+      \           \n            CGPROGRAM\n            #pragma vertex vert\n            #pragma
+      fragment frag\n            #define UNITY_PASS_FORWARDADD\n            #include
+      \"UnityCG.cginc\"\n            #include \"AutoLight.cginc\"\n            #pragma
+      multi_compile_fwdadd_fullshadows\n            #pragma multi_compile_fog\n            #pragma
+      only_renderers d3d9 d3d11 glcore gles \n            #pragma target 3.0\n            uniform
+      float4 _LightColor0;\n            uniform sampler2D _Noise; uniform float4 _Noise_ST;\n
+      \           uniform float _DissolveAmount;\n            uniform sampler2D _Ramp;
+      uniform float4 _Ramp_ST;\n            uniform sampler2D _DiffuseTexture; uniform
+      float4 _DiffuseTexture_ST;\n            struct VertexInput {\n                float4
+      vertex : POSITION;\n                float3 normal : NORMAL;\n                float2
+      texcoord0 : TEXCOORD0;\n            };\n            struct VertexOutput {\n
+      \               float4 pos : SV_POSITION;\n                float2 uv0 : TEXCOORD0;\n
+      \               float4 posWorld : TEXCOORD1;\n                float3 normalDir
+      : TEXCOORD2;\n                LIGHTING_COORDS(3,4)\n                UNITY_FOG_COORDS(5)\n
+      \           };\n            VertexOutput vert (VertexInput v) {\n                VertexOutput
+      o = (VertexOutput)0;\n                o.uv0 = v.texcoord0;\n                o.normalDir
+      = UnityObjectToWorldNormal(v.normal);\n                o.posWorld = mul(unity_ObjectToWorld,
+      v.vertex);\n                float3 lightColor = _LightColor0.rgb;\n                o.pos
+      = UnityObjectToClipPos( v.vertex );\n                UNITY_TRANSFER_FOG(o,o.pos);\n
+      \               TRANSFER_VERTEX_TO_FRAGMENT(o)\n                return o;\n
+      \           }\n            float4 frag(VertexOutput i, float facing : VFACE)
+      : COLOR {\n                float isFrontFace = ( facing >= 0 ? 1 : 0 );\n                float
+      faceSign = ( facing >= 0 ? 1 : -1 );\n                i.normalDir = normalize(i.normalDir);\n
+      \               i.normalDir *= faceSign;\n                float3 viewDirection
+      = normalize(_WorldSpaceCameraPos.xyz - i.posWorld.xyz);\n                float3
+      normalDirection = i.normalDir;\n                float4 node_6738 = _Time;\n
+      \               float2 node_7339 = (i.uv0+node_6738.g*float2(0.1,0.1));\n                float4
+      _Noise_var = tex2D(_Noise,TRANSFORM_TEX(node_7339, _Noise));\n                float
+      node_8419 = (((1.0 - _DissolveAmount)*1.3+-0.65)+_Noise_var.r);\n                clip(node_8419
+      - 0.5);\n                float3 lightDirection = normalize(lerp(_WorldSpaceLightPos0.xyz,
+      _WorldSpaceLightPos0.xyz - i.posWorld.xyz,_WorldSpaceLightPos0.w));\n                float3
+      lightColor = _LightColor0.rgb;\n////// Lighting:\n                float attenuation
+      = LIGHT_ATTENUATION(i);\n                float3 attenColor = attenuation * _LightColor0.xyz;\n///////
+      Diffuse:\n                float NdotL = max(0.0,dot( normalDirection, lightDirection
+      ));\n                float3 directDiffuse = max( 0.0, NdotL) * attenColor;\n
+      \               float4 _DiffuseTexture_var = tex2D(_DiffuseTexture,TRANSFORM_TEX(i.uv0,
+      _DiffuseTexture));\n                float3 diffuseColor = _DiffuseTexture_var.rgb;\n
+      \               float3 diffuse = directDiffuse * diffuseColor;\n/// Final Color:\n
+      \               float3 finalColor = diffuse;\n                fixed4 finalRGBA
+      = fixed4(finalColor * 1,0);\n                UNITY_APPLY_FOG(i.fogCoord, finalRGBA);\n
+      \               return finalRGBA;\n            }\n            ENDCG\n        }\n
+      \       Pass {\n            Name \"ShadowCaster\"\n            Tags {\n                \"LightMode\"=\"ShadowCaster\"\n
+      \           }\n            Offset 1, 1\n            Cull Off\n            \n
+      \           CGPROGRAM\n            #pragma vertex vert\n            #pragma
+      fragment frag\n            #define UNITY_PASS_SHADOWCASTER\n            #include
+      \"UnityCG.cginc\"\n            #include \"Lighting.cginc\"\n            #pragma
+      fragmentoption ARB_precision_hint_fastest\n            #pragma multi_compile_shadowcaster\n
+      \           #pragma multi_compile_fog\n            #pragma only_renderers d3d9
+      d3d11 glcore gles \n            #pragma target 3.0\n            uniform sampler2D
+      _Noise; uniform float4 _Noise_ST;\n            uniform float _DissolveAmount;\n
+      \           struct VertexInput {\n                float4 vertex : POSITION;\n
+      \               float2 texcoord0 : TEXCOORD0;\n            };\n            struct
+      VertexOutput {\n                V2F_SHADOW_CASTER;\n                float2 uv0
+      : TEXCOORD1;\n            };\n            VertexOutput vert (VertexInput v)
+      {\n                VertexOutput o = (VertexOutput)0;\n                o.uv0
+      = v.texcoord0;\n                o.pos = UnityObjectToClipPos( v.vertex );\n
+      \               TRANSFER_SHADOW_CASTER(o)\n                return o;\n            }\n
+      \           float4 frag(VertexOutput i, float facing : VFACE) : COLOR {\n                float
+      isFrontFace = ( facing >= 0 ? 1 : 0 );\n                float faceSign = ( facing
+      >= 0 ? 1 : -1 );\n                float4 node_8537 = _Time;\n                float2
+      node_7339 = (i.uv0+node_8537.g*float2(0.1,0.1));\n                float4 _Noise_var
+      = tex2D(_Noise,TRANSFORM_TEX(node_7339, _Noise));\n                float node_8419
+      = (((1.0 - _DissolveAmount)*1.3+-0.65)+_Noise_var.r);\n                clip(node_8419
+      - 0.5);\n                SHADOW_CASTER_FRAGMENT(i)\n            }\n            ENDCG\n
+      \       }\n    }\n    FallBack \"Diffuse\"\n    CustomEditor \"ShaderForgeMaterialInspector\"\n}\n"
+    ps: {fileID: 0}
+    properties: {fileID: 0}
+    mOut: {fileID: 0}
+  preview:
+    editor: {fileID: 16}
+    settings:
+      previewAutoRotate: 0
+      colorBg: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    mesh: {fileID: 4300024, guid: 27cd3ffabf618924f9c9eeefb09b60e0, type: 3}
+    internalMaterial: {fileID: 0}
+    render: {fileID: 0}
+    previewStyle:
+      m_Name: textfield
+      m_Normal:
+        m_Background: {fileID: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}
+      m_Hover:
+        m_Background: {fileID: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}
+      m_Active:
+        m_Background: {fileID: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}
+      m_Focused:
+        m_Background: {fileID: -6925230156380230527, guid: 0000000000000000d000000000000000,
+          type: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}
+      m_OnNormal:
+        m_Background: {fileID: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}
+      m_OnHover:
+        m_Background: {fileID: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}
+      m_OnActive:
+        m_Background: {fileID: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}
+      m_OnFocused:
+        m_Background: {fileID: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}
+      m_Border:
+        m_Left: 3
+        m_Right: 3
+        m_Top: 3
+        m_Bottom: 3
+      m_Margin:
+        m_Left: 4
+        m_Right: 4
+        m_Top: 2
+        m_Bottom: 2
+      m_Padding:
+        m_Left: 3
+        m_Right: 3
+        m_Top: 1
+        m_Bottom: 2
+      m_Overflow:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      m_Font: {fileID: 0}
+      m_FontSize: 0
+      m_FontStyle: 0
+      m_Alignment: 0
+      m_WordWrap: 0
+      m_RichText: 0
+      m_TextClipping: 1
+      m_ImagePosition: 3
+      m_ContentOffset: {x: 0, y: 0}
+      m_FixedWidth: 0
+      m_FixedHeight: 0
+      m_StretchWidth: 1
+      m_StretchHeight: 0
+    backgroundTexture: {fileID: 0}
+    isDraggingLMB: 0
+    dragStartPosLMB: {x: 245, y: 253}
+    rotMeshStart: {x: 39.6, y: -4869.3345}
+    rotMesh: {x: 29.599998, y: -4886.1343}
+    rotMeshSmooth: {x: 29.599998, y: -4886.134}
+    isDraggingRMB: 0
+    cam: {fileID: 0}
+    camPivot: {fileID: 0}
+    lights:
+    - {fileID: 0}
+    - {fileID: 0}
+    enabled: 1
+    previewRect:
+      serializedVersion: 2
+      x: 0
+      y: 43
+      width: 320
+      height: 320
+    targetFOV: 30
+    smoothFOV: 30
+  nodeView: {fileID: 0}
+  nodeBrowser: {fileID: 0}
+  ps: {fileID: 0}
+  mainNode: {fileID: 0}
+  statusBox:
+    editor: {fileID: 16}
+    vCount:
+      min: 0
+      max: 0
+    fCount:
+      min: 0
+      max: 0
+    vtCount:
+      min: 0
+      max: 0
+    ftCount:
+      min: 0
+      max: 0
+    platform: 0
+    labelStyle:
+      m_Name: ControlLabel
+      m_Normal:
+        m_Background: {fileID: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0.705, g: 0.705, b: 0.705, a: 1}
+      m_Hover:
+        m_Background: {fileID: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0.705, g: 0.705, b: 0.705, a: 1}
+      m_Active:
+        m_Background: {fileID: 3696117970163896625, guid: 0000000000000000d000000000000000,
+          type: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0.2985075, g: 0.4923412, b: 1, a: 1}
+      m_Focused:
+        m_Background: {fileID: 3696117970163896625, guid: 0000000000000000d000000000000000,
+          type: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0.2985075, g: 0.4923412, b: 1, a: 1}
+      m_OnNormal:
+        m_Background: {fileID: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0.705, g: 0.705, b: 0.705, a: 1}
+      m_OnHover:
+        m_Background: {fileID: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0.705, g: 0.705, b: 0.705, a: 1}
+      m_OnActive:
+        m_Background: {fileID: 3696117970163896625, guid: 0000000000000000d000000000000000,
+          type: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0.2985075, g: 0.4923412, b: 1, a: 1}
+      m_OnFocused:
+        m_Background: {fileID: 3696117970163896625, guid: 0000000000000000d000000000000000,
+          type: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0.2985075, g: 0.4923412, b: 1, a: 1}
+      m_Border:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      m_Margin:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      m_Padding:
+        m_Left: 8
+        m_Right: 0
+        m_Top: 3
+        m_Bottom: 1
+      m_Overflow:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      m_Font: {fileID: 0}
+      m_FontSize: 0
+      m_FontStyle: 0
+      m_Alignment: 0
+      m_WordWrap: 0
+      m_RichText: 0
+      m_TextClipping: 1
+      m_ImagePosition: 0
+      m_ContentOffset: {x: 0, y: 0}
+      m_FixedWidth: 0
+      m_FixedHeight: 0
+      m_StretchWidth: 1
+      m_StretchHeight: 0
+    labelStyleCentered:
+      m_Name: ControlLabel
+      m_Normal:
+        m_Background: {fileID: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0.705, g: 0.705, b: 0.705, a: 1}
+      m_Hover:
+        m_Background: {fileID: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0.705, g: 0.705, b: 0.705, a: 1}
+      m_Active:
+        m_Background: {fileID: 3696117970163896625, guid: 0000000000000000d000000000000000,
+          type: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0.2985075, g: 0.4923412, b: 1, a: 1}
+      m_Focused:
+        m_Background: {fileID: 3696117970163896625, guid: 0000000000000000d000000000000000,
+          type: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0.2985075, g: 0.4923412, b: 1, a: 1}
+      m_OnNormal:
+        m_Background: {fileID: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0.705, g: 0.705, b: 0.705, a: 1}
+      m_OnHover:
+        m_Background: {fileID: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0.705, g: 0.705, b: 0.705, a: 1}
+      m_OnActive:
+        m_Background: {fileID: 3696117970163896625, guid: 0000000000000000d000000000000000,
+          type: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0.2985075, g: 0.4923412, b: 1, a: 1}
+      m_OnFocused:
+        m_Background: {fileID: 3696117970163896625, guid: 0000000000000000d000000000000000,
+          type: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0.2985075, g: 0.4923412, b: 1, a: 1}
+      m_Border:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      m_Margin:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      m_Padding:
+        m_Left: 8
+        m_Right: 0
+        m_Top: 3
+        m_Bottom: 1
+      m_Overflow:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      m_Font: {fileID: 0}
+      m_FontSize: 0
+      m_FontStyle: 0
+      m_Alignment: 4
+      m_WordWrap: 0
+      m_RichText: 0
+      m_TextClipping: 1
+      m_ImagePosition: 0
+      m_ContentOffset: {x: 0, y: 0}
+      m_FixedWidth: 0
+      m_FixedHeight: 0
+      m_StretchWidth: 1
+      m_StretchHeight: 0
+    holderStyle:
+      m_Name: 
+      m_Normal:
+        m_Background: {fileID: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+      m_Hover:
+        m_Background: {fileID: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+      m_Active:
+        m_Background: {fileID: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+      m_Focused:
+        m_Background: {fileID: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+      m_OnNormal:
+        m_Background: {fileID: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+      m_OnHover:
+        m_Background: {fileID: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+      m_OnActive:
+        m_Background: {fileID: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+      m_OnFocused:
+        m_Background: {fileID: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+      m_Border:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      m_Margin:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      m_Padding:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      m_Overflow:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      m_Font: {fileID: 0}
+      m_FontSize: 0
+      m_FontStyle: 0
+      m_Alignment: 0
+      m_WordWrap: 0
+      m_RichText: 1
+      m_TextClipping: 0
+      m_ImagePosition: 0
+      m_ContentOffset: {x: 0, y: 0}
+      m_FixedWidth: 0
+      m_FixedHeight: 0
+      m_StretchWidth: 1
+      m_StretchHeight: 0
+    headerStyle:
+      m_Name: Toolbar
+      m_Normal:
+        m_Background: {fileID: -1997011816300963927, guid: 0000000000000000d000000000000000,
+          type: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+      m_Hover:
+        m_Background: {fileID: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+      m_Active:
+        m_Background: {fileID: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0.705, g: 0.705, b: 0.705, a: 1}
+      m_Focused:
+        m_Background: {fileID: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+      m_OnNormal:
+        m_Background: {fileID: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0.06911764, g: 0.06911764, b: 0.06911764, a: 1}
+      m_OnHover:
+        m_Background: {fileID: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+      m_OnActive:
+        m_Background: {fileID: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0.705, g: 0.705, b: 0.705, a: 1}
+      m_OnFocused:
+        m_Background: {fileID: 0}
+        m_ScaledBackgrounds: []
+        m_TextColor: {r: 0.705, g: 0.705, b: 0.705, a: 1}
+      m_Border:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 2
+        m_Bottom: 2
+      m_Margin:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      m_Padding:
+        m_Left: 6
+        m_Right: 6
+        m_Top: 0
+        m_Bottom: 0
+      m_Overflow:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      m_Font: {fileID: 3021071571035331536, guid: 0000000000000000d000000000000000,
+        type: 0}
+      m_FontSize: 10
+      m_FontStyle: 0
+      m_Alignment: 3
+      m_WordWrap: 0
+      m_RichText: 0
+      m_TextClipping: 1
+      m_ImagePosition: 0
+      m_ContentOffset: {x: 0, y: -1}
+      m_FixedWidth: 0
+      m_FixedHeight: 18
+      m_StretchWidth: 0
+      m_StretchHeight: 0
+  nodes:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  windowStyle:
+    m_Name: textfield
+    m_Normal:
+      m_Background: {fileID: 4072351054032163450, guid: 0000000000000000d000000000000000,
+        type: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}
+    m_Hover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}
+    m_Active:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}
+    m_Focused:
+      m_Background: {fileID: -6925230156380230527, guid: 0000000000000000d000000000000000,
+        type: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.7058824, g: 0.7058824, b: 0.7058824, a: 1}
+    m_Border:
+      m_Left: 3
+      m_Right: 3
+      m_Top: 3
+      m_Bottom: 3
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 0
+    m_FontStyle: 0
+    m_Alignment: 0
+    m_WordWrap: 0
+    m_RichText: 0
+    m_TextClipping: 1
+    m_ImagePosition: 3
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 1
+    m_StretchHeight: 0
+  titleStyle:
+    m_Name: LargeLabel
+    m_Normal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.705, g: 0.705, b: 0.705, a: 0.9215686}
+    m_Hover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.705, g: 0.705, b: 0.705, a: 1}
+    m_Active:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.705, g: 0.705, b: 0.705, a: 1}
+    m_Focused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.705, g: 0.705, b: 0.705, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.705, g: 0.705, b: 0.705, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.705, g: 0.705, b: 0.705, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.705, g: 0.705, b: 0.705, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.705, g: 0.705, b: 0.705, a: 1}
+    m_Border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Margin:
+      m_Left: 4
+      m_Right: 4
+      m_Top: 4
+      m_Bottom: 4
+    m_Padding:
+      m_Left: 2
+      m_Right: 2
+      m_Top: 2
+      m_Bottom: 2
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: -2914059783256359354, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_FontSize: 24
+    m_FontStyle: 0
+    m_Alignment: 0
+    m_WordWrap: 0
+    m_RichText: 0
+    m_TextClipping: 1
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 1
+    m_StretchHeight: 0
+  versionStyle:
+    m_Name: MiniBoldLabel
+    m_Normal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    m_Hover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Active:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.705, g: 0.705, b: 0.705, a: 1}
+    m_Focused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.06911764, g: 0.06911764, b: 0.06911764, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.705, g: 0.705, b: 0.705, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.705, g: 0.705, b: 0.705, a: 1}
+    m_Border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Margin:
+      m_Left: 1
+      m_Right: 4
+      m_Top: 3
+      m_Bottom: 1
+    m_Padding:
+      m_Left: 1
+      m_Right: 2
+      m_Top: 1
+      m_Bottom: 1
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: -9142270697591305147, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_FontSize: 9
+    m_FontStyle: 0
+    m_Alignment: 3
+    m_WordWrap: 0
+    m_RichText: 0
+    m_TextClipping: 1
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 1
+    m_StretchHeight: 0
+  nodeScrollbarStyle:
+    m_Name: 
+    m_Normal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Hover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Active:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Focused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 0
+    m_FontStyle: 0
+    m_Alignment: 0
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 1
+    m_StretchHeight: 0
+  separatorLeft: {fileID: 0}
+  separatorRight: {fileID: 0}
+  mousePosition: {x: 634, y: -407}
+  currentShaderAsset: {fileID: 4800000, guid: eca95c9e52f1cc04d8c7de73763d1387, type: 3}
+  currentShaderPath: Shader Forge/DesolveOrb
+  nodeTemplates:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  shaderOutdated: 0
+  deltaTime: 0.02
+  dockedLastUpdate: 1703.826
+  _docked: 1
+  previousPosition:
+    serializedVersion: 2
+    x: 284
+    y: 468
+    width: 1123
+    height: 560
+  closeMe: 0
+  screenshotInProgress: 0
+  firstFrameScreenshotInProgress: 0
+  preScreenshotZoom: 1
+  shaderPresetNames:
+  - Unlit
+  - 'Lit
+
+    (PBR)'
+  - 'Lit
+
+    (Basic)'
+  - Custom Lighting
+  - Sprite
+  - 'Particle
+
+    (Additive)'
+  - 'Particle
+
+    (Alpha-Blended)'
+  - 'Particle
+
+    (Multiplicative)'
+  - Sky
+  - Post-Effect
+  shaderPresetShaders:
+  - Unlit
+  - PBR
+  - Basic
+  - CustomLighting
+  - Sprite
+  - ParticleAdditive
+  - ParticleAlphaBlended
+  - ParticleMultiplicative
+  - Sky
+  - PostEffect
+  shaderPresetDescriptions:
+  - Unlit means that light sources will not affect this shader, it will simply have
+    the color you give it, regardless of the scene setup.
+  - Lit (PBR) is set up to match Unity's Physically Based shader, affected by lightmaps,
+    light probes, reflection probes etc.
+  - Lit (Basic) is the old-school Blinn-Phong lighting model. Direct lighting only,
+    no lightmap or probe data.
+  - Custom Lighting is set up with a simple example of how you can create your own
+    lighting models. The initial setup is a Blinn-Phong shader.
+  - Sprite is for creating 2D shaders to be used on sprites. These will have the pixel-perfect
+    option and sort properly with other 2D sprites.
+  - Particle (Additive) is generally for glow effects, lightshafts, sparks etc. Primarily
+    used in particle systems.
+  - Particle (Alpha-Blended) is generally for debris effects, dusty smoke etc. Primarily
+    used in particle systems.
+  - Particle (Multiplicative) is generally for darkening effects, black smoke, evil-looking
+    anti-glow etc. Primarily used in particle systems.
+  - Sky is for creating shaders to be used with a sky material in your scene. It will
+    render behind everything else.
+  - Post-Effect is for creating shaders meant to render full-screen rather than at
+    a position in the world, commonly used for post-process effects
+  displaySettings: 0
+--- !u!114 &17
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
@@ -554,12 +1597,12 @@ MonoBehaviour:
     height: 957
   m_MinSize: {x: 230, y: 250}
   m_MaxSize: {x: 10000, y: 10000}
-  m_ActualView: {fileID: 17}
+  m_ActualView: {fileID: 18}
   m_Panes:
-  - {fileID: 17}
+  - {fileID: 18}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &17
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -608,7 +1651,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 9e2a0000
     m_LastClickedID: 10910
-    m_ExpandedIDs: 00000000ea390000083a0000183a0000203a0000983a0000cc3a0000803b00005e3c0000923c0000bc3c0000be3d0000223e0000303e00006c3f00006e3f0000703f0000723f0000743f0000763f0000783f00007a3f0000
+    m_ExpandedIDs: 00000000902d0000ac2d0000bc2d0000c42d00004a2e0000822e0000502f00004e30000084300000b6300000e23100005a3200006c3200002434000026340000283400002a3400002c3400002e3400003034000032340000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -634,9 +1677,9 @@ MonoBehaviour:
       m_ResourceFile: 
   m_AssetTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 1292ffff
+    m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ea390000083a0000183a0000203a0000983a0000cc3a0000803b00005e3c0000923c0000bc3c0000be3d0000223e0000303e00006c3f00006e3f0000703f0000723f0000743f0000763f0000783f00007a3f0000
+    m_ExpandedIDs: 00000000902d0000c42d00004a2e0000822e0000502f00004e30000084300000b6300000e23100005a3200006c3200002434000026340000283400002a3400002c3400002e3400003034000032340000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -652,7 +1695,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 16}
+      m_ClientGUIView: {fileID: 17}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -661,8 +1704,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 1292ffff
-    m_LastClickedInstanceID: -28142
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 
     m_RenameOverlay:
@@ -691,7 +1734,7 @@ MonoBehaviour:
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 16
   m_DirectoriesAreaWidth: 115
---- !u!114 &18
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -709,14 +1752,14 @@ MonoBehaviour:
     y: 0
     width: 277
     height: 957
-  m_MinSize: {x: 277, y: 71}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 19}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 20}
   m_Panes:
-  - {fileID: 19}
+  - {fileID: 20}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &19
+--- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -743,7 +1786,7 @@ MonoBehaviour:
     width: 275
     height: 936
   m_PersistentViewDataDictionary: {fileID: 0}
-  m_ScrollPosition: {x: 0, y: 60}
+  m_ScrollPosition: {x: 0, y: 0}
   m_InspectorMode: 0
   m_PreviewResizer:
     m_CachedPref: 230
