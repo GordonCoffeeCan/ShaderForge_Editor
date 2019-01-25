@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: a47879d6073225841af3eab7729be2a2
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _ToonDiffuseTexture: {fileID: 2800000, guid: e5433aafad9441c4998914efc0d20948,
+      type: 3}
+  - _ToonSpecTexture: {fileID: 2800000, guid: 836f6f6e2ef5cd34a969b8c52d47a49e, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 38b147f7e56278e43961d7b066c1e4a5
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _BRDFTexture: {fileID: 2800000, guid: 6e2b52bdc3b82244ea889c03c2e1bb1f, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
