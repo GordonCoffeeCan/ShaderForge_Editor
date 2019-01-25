@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 51cffb8ce3099e641a5319653f6088cc
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _Albedo: {fileID: 2800000, guid: 4ee87de8f3d9a48499d40e6308185180, type: 3}
+  - _Nosie: {fileID: 2800000, guid: 8c9574dcef955724eb1a127e8895a90d, type: 3}
+  - _AlphaShape: {fileID: 2800000, guid: 53719699c6301af4aafeec3d80ec2b1d, type: 3}
+  - _Emission: {fileID: 2800000, guid: c1970fdd536af7642a62d44721e49718, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
