@@ -57,10 +57,10 @@ Shader "MyShader/CustomEmission" {
                 float faceSign = ( facing >= 0 ? 1 : -1 );
 ////// Lighting:
 ////// Emissive:
-                float4 node_8575 = _Time;
-                float2 node_4054 = (i.uv0+node_8575.g*float2(0.3,0));
+                float4 node_2182 = _Time;
+                float2 node_4054 = (i.uv0+node_2182.g*float2(0.3,0));
                 float4 _node_7481_var = tex2D(_node_7481,TRANSFORM_TEX(node_4054, _node_7481));
-                float2 node_7549 = (i.uv0+node_8575.g*float2(0,0.2));
+                float2 node_7549 = (i.uv0+node_2182.g*float2(0,0.2));
                 float4 _node_7481_copy_var = tex2D(_node_7481_copy,TRANSFORM_TEX(node_7549, _node_7481_copy));
                 float3 emissive = ((_node_7481_var.rgb+_node_7481_copy_var.rgb)*_node_9399.rgb);
                 float3 finalColor = emissive;

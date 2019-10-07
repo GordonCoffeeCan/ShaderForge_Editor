@@ -1,0 +1,651 @@
+fileFormatVersion: 2
+guid: 28e21639e2d622343b8d2b1b8d45fec5
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: back_wheel
+    100002: Bip001 Head
+    100004: Bip001 L Calf
+    100006: Bip001 L Clavicle
+    100008: Bip001 L Finger0
+    100010: Bip001 L Finger01
+    100012: Bip001 L Finger02
+    100014: Bip001 L Finger0Nub
+    100016: Bip001 L Finger1
+    100018: Bip001 L Finger11
+    100020: Bip001 L Finger12
+    100022: Bip001 L Finger1Nub
+    100024: Bip001 L Finger2
+    100026: Bip001 L Finger21
+    100028: Bip001 L Finger22
+    100030: Bip001 L Finger2Nub
+    100032: Bip001 L Finger3
+    100034: Bip001 L Finger31
+    100036: Bip001 L Finger32
+    100038: Bip001 L Finger3Nub
+    100040: Bip001 L Finger4
+    100042: Bip001 L Finger41
+    100044: Bip001 L Finger42
+    100046: Bip001 L Finger4Nub
+    100048: Bip001 L Foot
+    100050: Bip001 L Forearm
+    100052: Bip001 L Hand
+    100054: Bip001 L Thigh
+    100056: Bip001 L Toe0
+    100058: Bip001 L UpperArm
+    100060: Bip001 Neck
+    100062: Bip001 Pelvis
+    100064: Bip001 R Calf
+    100066: Bip001 R Clavicle
+    100068: Bip001 R Finger0
+    100070: Bip001 R Finger01
+    100072: Bip001 R Finger02
+    100074: Bip001 R Finger0Nub
+    100076: Bip001 R Finger1
+    100078: Bip001 R Finger11
+    100080: Bip001 R Finger12
+    100082: Bip001 R Finger1Nub
+    100084: Bip001 R Finger2
+    100086: Bip001 R Finger21
+    100088: Bip001 R Finger22
+    100090: Bip001 R Finger2Nub
+    100092: Bip001 R Finger3
+    100094: Bip001 R Finger31
+    100096: Bip001 R Finger32
+    100098: Bip001 R Finger3Nub
+    100100: Bip001 R Finger4
+    100102: Bip001 R Finger41
+    100104: Bip001 R Finger42
+    100106: Bip001 R Finger4Nub
+    100108: Bip001 R Foot
+    100110: Bip001 R Forearm
+    100112: Bip001 R Hand
+    100114: Bip001 R Thigh
+    100116: Bip001 R Toe0
+    100118: Bip001 R UpperArm
+    100120: Bip001 Spine
+    100122: Bip001 Spine1
+    100124: Bip001 Spine2
+    100126: bone_bottle_1
+    100128: bone_bottle_2
+    100130: bone_chassy
+    100132: Bone_crankarm
+    100134: bone_fork
+    100136: Bone_pedal_left
+    100138: Bone_pedal_right
+    100140: bone_seatpost
+    100142: Bone_wheel_backward
+    100144: Bone_wheel_forward
+    100146: bottle_1
+    100148: bottle_2
+    100150: bottleB
+    100152: bottleF
+    100154: brake_left
+    100156: brake_right
+    100158: cyclist_f
+    100160: cyclist_f_hairtufts
+    100162: frnt_wheel
+    100164: glassesf
+    100166: global1
+    100168: handle
+    100170: helmetf
+    100172: leftbrake
+    100174: LOD_00_Mbike_body
+    100176: LOD_00_Mbike_brake_L
+    100178: LOD_00_Mbike_brake_R
+    100180: LOD_00_Mbike_cables
+    100182: LOD_00_Mbike_chain
+    100184: LOD_00_Mbike_chain_set
+    100186: LOD_00_Mbike_fork
+    100188: LOD_00_Mbike_gear_02
+    100190: LOD_00_Mbike_gear_03
+    100192: LOD_00_Mbike_handlebar
+    100194: LOD_00_Mbike_pedal_L
+    100196: LOD_00_Mbike_pedal_R
+    100198: LOD_00_Mbike_seat
+    100200: male_Ctrl_ChestEndEffector
+    100202: male_Ctrl_ChestOriginEffector
+    100204: male_Ctrl_Head
+    100206: male_Ctrl_HeadEffector
+    100208: male_Ctrl_Hips
+    100210: male_Ctrl_HipsEffector
+    100212: male_Ctrl_LeftAnkleEffector
+    100214: male_Ctrl_LeftArm
+    100216: male_Ctrl_LeftElbowEffector
+    100218: male_Ctrl_LeftFoot
+    100220: male_Ctrl_LeftFootEffector
+    100222: male_Ctrl_LeftForeArm
+    100224: male_Ctrl_LeftHand
+    100226: male_Ctrl_LeftHandIndex1
+    100228: male_Ctrl_LeftHandIndex2
+    100230: male_Ctrl_LeftHandIndex3
+    100232: male_Ctrl_LeftHandIndex4
+    100234: male_Ctrl_LeftHandIndexEffector
+    100236: male_Ctrl_LeftHandMiddle1
+    100238: male_Ctrl_LeftHandMiddle2
+    100240: male_Ctrl_LeftHandMiddle3
+    100242: male_Ctrl_LeftHandMiddle4
+    100244: male_Ctrl_LeftHandMiddleEffector
+    100246: male_Ctrl_LeftHandPinky1
+    100248: male_Ctrl_LeftHandPinky2
+    100250: male_Ctrl_LeftHandPinky3
+    100252: male_Ctrl_LeftHandPinky4
+    100254: male_Ctrl_LeftHandPinkyEffector
+    100256: male_Ctrl_LeftHandRing1
+    100258: male_Ctrl_LeftHandRing2
+    100260: male_Ctrl_LeftHandRing3
+    100262: male_Ctrl_LeftHandRing4
+    100264: male_Ctrl_LeftHandRingEffector
+    100266: male_Ctrl_LeftHandThumb1
+    100268: male_Ctrl_LeftHandThumb2
+    100270: male_Ctrl_LeftHandThumb3
+    100272: male_Ctrl_LeftHandThumb4
+    100274: male_Ctrl_LeftHandThumbEffector
+    100276: male_Ctrl_LeftHipEffector
+    100278: male_Ctrl_LeftKneeEffector
+    100280: male_Ctrl_LeftLeg
+    100282: male_Ctrl_LeftShoulder
+    100284: male_Ctrl_LeftShoulderEffector
+    100286: male_Ctrl_LeftToeBase
+    100288: male_Ctrl_LeftUpLeg
+    100290: male_Ctrl_LeftWristEffector
+    100292: male_Ctrl_Neck
+    100294: male_Ctrl_Reference
+    100296: male_Ctrl_RightAnkleEffector
+    100298: male_Ctrl_RightArm
+    100300: male_Ctrl_RightElbowEffector
+    100302: male_Ctrl_RightFoot
+    100304: male_Ctrl_RightFootEffector
+    100306: male_Ctrl_RightForeArm
+    100308: male_Ctrl_RightHand
+    100310: male_Ctrl_RightHandIndex1
+    100312: male_Ctrl_RightHandIndex2
+    100314: male_Ctrl_RightHandIndex3
+    100316: male_Ctrl_RightHandIndex4
+    100318: male_Ctrl_RightHandIndexEffector
+    100320: male_Ctrl_RightHandMiddle1
+    100322: male_Ctrl_RightHandMiddle2
+    100324: male_Ctrl_RightHandMiddle3
+    100326: male_Ctrl_RightHandMiddle4
+    100328: male_Ctrl_RightHandMiddleEffector
+    100330: male_Ctrl_RightHandPinky1
+    100332: male_Ctrl_RightHandPinky2
+    100334: male_Ctrl_RightHandPinky3
+    100336: male_Ctrl_RightHandPinky4
+    100338: male_Ctrl_RightHandPinkyEffector
+    100340: male_Ctrl_RightHandRing1
+    100342: male_Ctrl_RightHandRing2
+    100344: male_Ctrl_RightHandRing3
+    100346: male_Ctrl_RightHandRing4
+    100348: male_Ctrl_RightHandRingEffector
+    100350: male_Ctrl_RightHandThumb1
+    100352: male_Ctrl_RightHandThumb2
+    100354: male_Ctrl_RightHandThumb3
+    100356: male_Ctrl_RightHandThumb4
+    100358: male_Ctrl_RightHandThumbEffector
+    100360: male_Ctrl_RightHipEffector
+    100362: male_Ctrl_RightKneeEffector
+    100364: male_Ctrl_RightLeg
+    100366: male_Ctrl_RightShoulder
+    100368: male_Ctrl_RightShoulderEffector
+    100370: male_Ctrl_RightToeBase
+    100372: male_Ctrl_RightUpLeg
+    100374: male_Ctrl_RightWristEffector
+    100376: male_Ctrl_Spine
+    100378: male_Ctrl_Spine1
+    100380: male_Ctrl_Spine2
+    100382: move_all_controller
+    100384: mtb
+    100386: //RootNode
+    100388: pedal_rotate
+    100390: right_brake
+    100392: road_male_pedal:controls1:transform1
+    100394: road_male_pedal:controls1:transform2
+    100396: road_male_pedal:controls:transform1
+    100398: road_male_pedal:controls:transform2
+    100400: road_male_pedal:road_male_TPose:Bip001 HeadNub
+    100402: road_male_pedal:road_male_TPose:Bip001 jaw
+    100404: road_male_pedal:road_male_TPose:Bip001 L ForeTwist
+    100406: road_male_pedal:road_male_TPose:Bip001 L ForeTwist1
+    100408: road_male_pedal:road_male_TPose:Bip001 L Toe0Nub
+    100410: road_male_pedal:road_male_TPose:Bip001 Ponytail1Nub
+    100412: road_male_pedal:road_male_TPose:Bip001 R ForeTwist
+    100414: road_male_pedal:road_male_TPose:Bip001 R ForeTwist1
+    100416: road_male_pedal:road_male_TPose:Bip001 R Toe0Nub
+    100418: road_male_pedal:road_male_TPose:Bip001_Leye
+    100420: road_male_pedal:road_male_TPose:Bip001_Reye
+    100422: road_male_pedal:road_male_TPose:bone_glass
+    100424: road_male_pedal:road_male_TPose:transform2
+    100426: road_male_pedal:road_male_TPose:transform3
+    100428: road_male_pedal:road_male_TPose:transform4
+    100430: transform1
+    100432: transform1 1
+    100434: transform2
+    400000: back_wheel
+    400002: Bip001 Head
+    400004: Bip001 L Calf
+    400006: Bip001 L Clavicle
+    400008: Bip001 L Finger0
+    400010: Bip001 L Finger01
+    400012: Bip001 L Finger02
+    400014: Bip001 L Finger0Nub
+    400016: Bip001 L Finger1
+    400018: Bip001 L Finger11
+    400020: Bip001 L Finger12
+    400022: Bip001 L Finger1Nub
+    400024: Bip001 L Finger2
+    400026: Bip001 L Finger21
+    400028: Bip001 L Finger22
+    400030: Bip001 L Finger2Nub
+    400032: Bip001 L Finger3
+    400034: Bip001 L Finger31
+    400036: Bip001 L Finger32
+    400038: Bip001 L Finger3Nub
+    400040: Bip001 L Finger4
+    400042: Bip001 L Finger41
+    400044: Bip001 L Finger42
+    400046: Bip001 L Finger4Nub
+    400048: Bip001 L Foot
+    400050: Bip001 L Forearm
+    400052: Bip001 L Hand
+    400054: Bip001 L Thigh
+    400056: Bip001 L Toe0
+    400058: Bip001 L UpperArm
+    400060: Bip001 Neck
+    400062: Bip001 Pelvis
+    400064: Bip001 R Calf
+    400066: Bip001 R Clavicle
+    400068: Bip001 R Finger0
+    400070: Bip001 R Finger01
+    400072: Bip001 R Finger02
+    400074: Bip001 R Finger0Nub
+    400076: Bip001 R Finger1
+    400078: Bip001 R Finger11
+    400080: Bip001 R Finger12
+    400082: Bip001 R Finger1Nub
+    400084: Bip001 R Finger2
+    400086: Bip001 R Finger21
+    400088: Bip001 R Finger22
+    400090: Bip001 R Finger2Nub
+    400092: Bip001 R Finger3
+    400094: Bip001 R Finger31
+    400096: Bip001 R Finger32
+    400098: Bip001 R Finger3Nub
+    400100: Bip001 R Finger4
+    400102: Bip001 R Finger41
+    400104: Bip001 R Finger42
+    400106: Bip001 R Finger4Nub
+    400108: Bip001 R Foot
+    400110: Bip001 R Forearm
+    400112: Bip001 R Hand
+    400114: Bip001 R Thigh
+    400116: Bip001 R Toe0
+    400118: Bip001 R UpperArm
+    400120: Bip001 Spine
+    400122: Bip001 Spine1
+    400124: Bip001 Spine2
+    400126: bone_bottle_1
+    400128: bone_bottle_2
+    400130: bone_chassy
+    400132: Bone_crankarm
+    400134: bone_fork
+    400136: Bone_pedal_left
+    400138: Bone_pedal_right
+    400140: bone_seatpost
+    400142: Bone_wheel_backward
+    400144: Bone_wheel_forward
+    400146: bottle_1
+    400148: bottle_2
+    400150: bottleB
+    400152: bottleF
+    400154: brake_left
+    400156: brake_right
+    400158: cyclist_f
+    400160: cyclist_f_hairtufts
+    400162: frnt_wheel
+    400164: glassesf
+    400166: global1
+    400168: handle
+    400170: helmetf
+    400172: leftbrake
+    400174: LOD_00_Mbike_body
+    400176: LOD_00_Mbike_brake_L
+    400178: LOD_00_Mbike_brake_R
+    400180: LOD_00_Mbike_cables
+    400182: LOD_00_Mbike_chain
+    400184: LOD_00_Mbike_chain_set
+    400186: LOD_00_Mbike_fork
+    400188: LOD_00_Mbike_gear_02
+    400190: LOD_00_Mbike_gear_03
+    400192: LOD_00_Mbike_handlebar
+    400194: LOD_00_Mbike_pedal_L
+    400196: LOD_00_Mbike_pedal_R
+    400198: LOD_00_Mbike_seat
+    400200: male_Ctrl_ChestEndEffector
+    400202: male_Ctrl_ChestOriginEffector
+    400204: male_Ctrl_Head
+    400206: male_Ctrl_HeadEffector
+    400208: male_Ctrl_Hips
+    400210: male_Ctrl_HipsEffector
+    400212: male_Ctrl_LeftAnkleEffector
+    400214: male_Ctrl_LeftArm
+    400216: male_Ctrl_LeftElbowEffector
+    400218: male_Ctrl_LeftFoot
+    400220: male_Ctrl_LeftFootEffector
+    400222: male_Ctrl_LeftForeArm
+    400224: male_Ctrl_LeftHand
+    400226: male_Ctrl_LeftHandIndex1
+    400228: male_Ctrl_LeftHandIndex2
+    400230: male_Ctrl_LeftHandIndex3
+    400232: male_Ctrl_LeftHandIndex4
+    400234: male_Ctrl_LeftHandIndexEffector
+    400236: male_Ctrl_LeftHandMiddle1
+    400238: male_Ctrl_LeftHandMiddle2
+    400240: male_Ctrl_LeftHandMiddle3
+    400242: male_Ctrl_LeftHandMiddle4
+    400244: male_Ctrl_LeftHandMiddleEffector
+    400246: male_Ctrl_LeftHandPinky1
+    400248: male_Ctrl_LeftHandPinky2
+    400250: male_Ctrl_LeftHandPinky3
+    400252: male_Ctrl_LeftHandPinky4
+    400254: male_Ctrl_LeftHandPinkyEffector
+    400256: male_Ctrl_LeftHandRing1
+    400258: male_Ctrl_LeftHandRing2
+    400260: male_Ctrl_LeftHandRing3
+    400262: male_Ctrl_LeftHandRing4
+    400264: male_Ctrl_LeftHandRingEffector
+    400266: male_Ctrl_LeftHandThumb1
+    400268: male_Ctrl_LeftHandThumb2
+    400270: male_Ctrl_LeftHandThumb3
+    400272: male_Ctrl_LeftHandThumb4
+    400274: male_Ctrl_LeftHandThumbEffector
+    400276: male_Ctrl_LeftHipEffector
+    400278: male_Ctrl_LeftKneeEffector
+    400280: male_Ctrl_LeftLeg
+    400282: male_Ctrl_LeftShoulder
+    400284: male_Ctrl_LeftShoulderEffector
+    400286: male_Ctrl_LeftToeBase
+    400288: male_Ctrl_LeftUpLeg
+    400290: male_Ctrl_LeftWristEffector
+    400292: male_Ctrl_Neck
+    400294: male_Ctrl_Reference
+    400296: male_Ctrl_RightAnkleEffector
+    400298: male_Ctrl_RightArm
+    400300: male_Ctrl_RightElbowEffector
+    400302: male_Ctrl_RightFoot
+    400304: male_Ctrl_RightFootEffector
+    400306: male_Ctrl_RightForeArm
+    400308: male_Ctrl_RightHand
+    400310: male_Ctrl_RightHandIndex1
+    400312: male_Ctrl_RightHandIndex2
+    400314: male_Ctrl_RightHandIndex3
+    400316: male_Ctrl_RightHandIndex4
+    400318: male_Ctrl_RightHandIndexEffector
+    400320: male_Ctrl_RightHandMiddle1
+    400322: male_Ctrl_RightHandMiddle2
+    400324: male_Ctrl_RightHandMiddle3
+    400326: male_Ctrl_RightHandMiddle4
+    400328: male_Ctrl_RightHandMiddleEffector
+    400330: male_Ctrl_RightHandPinky1
+    400332: male_Ctrl_RightHandPinky2
+    400334: male_Ctrl_RightHandPinky3
+    400336: male_Ctrl_RightHandPinky4
+    400338: male_Ctrl_RightHandPinkyEffector
+    400340: male_Ctrl_RightHandRing1
+    400342: male_Ctrl_RightHandRing2
+    400344: male_Ctrl_RightHandRing3
+    400346: male_Ctrl_RightHandRing4
+    400348: male_Ctrl_RightHandRingEffector
+    400350: male_Ctrl_RightHandThumb1
+    400352: male_Ctrl_RightHandThumb2
+    400354: male_Ctrl_RightHandThumb3
+    400356: male_Ctrl_RightHandThumb4
+    400358: male_Ctrl_RightHandThumbEffector
+    400360: male_Ctrl_RightHipEffector
+    400362: male_Ctrl_RightKneeEffector
+    400364: male_Ctrl_RightLeg
+    400366: male_Ctrl_RightShoulder
+    400368: male_Ctrl_RightShoulderEffector
+    400370: male_Ctrl_RightToeBase
+    400372: male_Ctrl_RightUpLeg
+    400374: male_Ctrl_RightWristEffector
+    400376: male_Ctrl_Spine
+    400378: male_Ctrl_Spine1
+    400380: male_Ctrl_Spine2
+    400382: move_all_controller
+    400384: mtb
+    400386: //RootNode
+    400388: pedal_rotate
+    400390: right_brake
+    400392: road_male_pedal:controls1:transform1
+    400394: road_male_pedal:controls1:transform2
+    400396: road_male_pedal:controls:transform1
+    400398: road_male_pedal:controls:transform2
+    400400: road_male_pedal:road_male_TPose:Bip001 HeadNub
+    400402: road_male_pedal:road_male_TPose:Bip001 jaw
+    400404: road_male_pedal:road_male_TPose:Bip001 L ForeTwist
+    400406: road_male_pedal:road_male_TPose:Bip001 L ForeTwist1
+    400408: road_male_pedal:road_male_TPose:Bip001 L Toe0Nub
+    400410: road_male_pedal:road_male_TPose:Bip001 Ponytail1Nub
+    400412: road_male_pedal:road_male_TPose:Bip001 R ForeTwist
+    400414: road_male_pedal:road_male_TPose:Bip001 R ForeTwist1
+    400416: road_male_pedal:road_male_TPose:Bip001 R Toe0Nub
+    400418: road_male_pedal:road_male_TPose:Bip001_Leye
+    400420: road_male_pedal:road_male_TPose:Bip001_Reye
+    400422: road_male_pedal:road_male_TPose:bone_glass
+    400424: road_male_pedal:road_male_TPose:transform2
+    400426: road_male_pedal:road_male_TPose:transform3
+    400428: road_male_pedal:road_male_TPose:transform4
+    400430: transform1
+    400432: transform1 1
+    400434: transform2
+    2100000: Mbike_body
+    2100002: Mbike_chain_tile
+    2100004: Mbike_chain
+    2100006: Mbike_wheel
+    2100008: road_female_road_female_helm_glass
+    2100010: road_female_road_female_hair
+    2100012: road_female_road_female_skin2
+    2100014: road_female_road_female_cloth
+    2300000: glassesf
+    3300000: glassesf
+    4300000: bottle_2
+    4300002: bottle_1
+    4300004: LOD_00_Mbike_chain
+    4300006: LOD_00_Mbike_gear_02
+    4300008: LOD_00_Mbike_gear_03
+    4300010: LOD_00_Mbike_pedal_R
+    4300012: LOD_00_Mbike_pedal_L
+    4300014: LOD_00_Mbike_cables
+    4300016: LOD_00_Mbike_chain_set
+    4300018: LOD_00_Mbike_body
+    4300020: LOD_00_Mbike_brake_R
+    4300022: LOD_00_Mbike_brake_L
+    4300024: LOD_00_Mbike_fork
+    4300026: LOD_00_Mbike_handlebar
+    4300028: LOD_00_Mbike_seat
+    4300030: glassesf
+    4300032: cyclist_f_hairtufts
+    4300034: cyclist_f
+    4300036: helmetf
+    9500000: //RootNode
+    13700000: bottle_1
+    13700002: bottle_2
+    13700004: cyclist_f
+    13700006: cyclist_f_hairtufts
+    13700008: helmetf
+    13700010: LOD_00_Mbike_body
+    13700012: LOD_00_Mbike_brake_L
+    13700014: LOD_00_Mbike_brake_R
+    13700016: LOD_00_Mbike_cables
+    13700018: LOD_00_Mbike_chain
+    13700020: LOD_00_Mbike_chain_set
+    13700022: LOD_00_Mbike_fork
+    13700024: LOD_00_Mbike_gear_02
+    13700026: LOD_00_Mbike_gear_03
+    13700028: LOD_00_Mbike_handlebar
+    13700030: LOD_00_Mbike_pedal_L
+    13700032: LOD_00_Mbike_pedal_R
+    13700034: LOD_00_Mbike_seat
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mbike_body
+    second: {fileID: 2100000, guid: bca674d33edd8e242bc4ad61d68299a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mbike_chain
+    second: {fileID: 2100000, guid: eba176e5dbbdf4d43af8113ef06754e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mbike_chain_tile
+    second: {fileID: 2100000, guid: 3c843182ee1fb5942b62094427a37f0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mbike_wheel
+    second: {fileID: 2100000, guid: 2f241a780901a6e4f837bd8e59b98b52, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: road_female_road_female_cloth
+    second: {fileID: 2100000, guid: 41d3adc9a7d6fb14e8e65e33762b4938, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: road_female_road_female_hair
+    second: {fileID: 2100000, guid: f1b90a7a6b30f9d4ea478a7102c97c1b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: road_female_road_female_helm_glass
+    second: {fileID: 2100000, guid: 77def1f26cd0ac34ba8e21996dc650c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: road_female_road_female_skin2
+    second: {fileID: 2100000, guid: e493d9e153917094cbbe135b97344fc7, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mbike_body_albedo
+    second: {fileID: 2800000, guid: eabb134d3a4aa164894308a7daf57813, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mbike_chain
+    second: {fileID: 2800000, guid: a03f6d20f3f9ecf45a669313c9e2d48f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mbike_chain_tile
+    second: {fileID: 2800000, guid: 60d84974c90db6842a39680aa755af65, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mbike_wheel_albedo
+    second: {fileID: 2800000, guid: b9a111de48911f1479c4372b91371f98, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cyclist_clothes_D_purple_alt
+    second: {fileID: 2800000, guid: a1ae18b80bf29f54890d2747c5ee41b7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cyclist_skin_female_D
+    second: {fileID: 2800000, guid: 850513b3171d45a4199da63c7aaf3573, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: hair_D
+    second: {fileID: 2800000, guid: f8b010ef3655b7e4daf8f57cfbb001aa, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: helmet_glasses_D_purple
+    second: {fileID: 2800000, guid: 1f2e84b57919c224aabdbac0fc942300, type: 3}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
