@@ -26,12 +26,20 @@ Material:
         m_Texture: {fileID: 2800000, guid: dd2977fbccee49e4b94f236dfa19c6b8, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _AnimatedEmissionMap:
+        m_Texture: {fileID: 2800000, guid: 87a9c25a75c34c146b94fda20fa43750, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BumpMap:
         m_Texture: {fileID: 2800000, guid: 2a7372df1d269f64e85c4c4c8b5b574e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 2800000, guid: dd2977fbccee49e4b94f236dfa19c6b8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MaskMap:
-        m_Texture: {fileID: 2800000, guid: efc7f6c9a16ab0c47bed88148153530b, type: 3}
+        m_Texture: {fileID: 2800000, guid: 6a985dfcd1d3ca94e9753748ed65c697, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicMap:
@@ -47,10 +55,14 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Direction: 1
+    - _AnimatedEmissionPower: 1
+    - _Direction: 0.5
+    - _EmissionPower: 1
     - _MetallicPower: 0.5
     - _RoughnessPower: 0.5
-    - _Speed: 1
+    - _Speed: 0.5
     m_Colors:
     - _AnimatedAlbedoColor: {r: 1, g: 1, b: 1, a: 1}
+    - _AnimatedEmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}

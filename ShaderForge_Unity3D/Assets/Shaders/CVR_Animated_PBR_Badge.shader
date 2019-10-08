@@ -1,7 +1,7 @@
 // Shader created with Shader Forge v1.38 
 // Shader Forge (c) Neat Corporation / Joachim Holmer - http://www.acegikmo.com/shaderforge/
 // Note: Manually altering this data may prevent you from opening it in Shader Forge
-/*SF_DATA;ver:1.38;sub:START;pass:START;ps:flbk:,iptp:0,cusa:False,bamd:0,cgin:,lico:1,lgpr:1,limd:3,spmd:1,trmd:0,grmd:1,uamb:True,mssp:True,bkdf:True,hqlp:False,rprd:True,enco:False,rmgx:True,imps:True,rpth:0,vtps:0,hqsc:True,nrmq:1,nrsp:0,vomd:0,spxs:False,tesm:0,olmd:1,culm:0,bsrc:0,bdst:1,dpts:2,wrdp:True,dith:0,atcv:False,rfrpo:True,rfrpn:Refraction,coma:15,ufog:True,aust:True,igpj:False,qofs:0,qpre:1,rntp:1,fgom:False,fgoc:False,fgod:False,fgor:False,fgmd:0,fgcr:0.5,fgcg:0.5,fgcb:0.5,fgca:1,fgde:0.01,fgrn:0,fgrf:300,stcl:False,atwp:False,stva:128,stmr:255,stmw:255,stcp:6,stps:0,stfa:0,stfz:0,ofsf:0,ofsu:0,f2p0:False,fnsp:False,fnfb:False,fsmp:False;n:type:ShaderForge.SFN_Final,id:2865,x:32719,y:32712,varname:node_2865,prsc:2|diff-4720-OUT,spec-4036-OUT,gloss-991-OUT,normal-5830-RGB;n:type:ShaderForge.SFN_Multiply,id:5011,x:32056,y:32727,varname:node_5011,prsc:2|A-7076-OUT,B-6828-RGB;n:type:ShaderForge.SFN_Color,id:6828,x:31879,y:32820,ptovrint:False,ptlb:Color,ptin:_Color,varname:_Color,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,c1:1,c2:1,c3:1,c4:1;n:type:ShaderForge.SFN_Tex2d,id:5830,x:32255,y:33366,ptovrint:True,ptlb:Normal Map,ptin:_BumpMap,varname:_BumpMap,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,ntxv:3,isnm:True;n:type:ShaderForge.SFN_Slider,id:4372,x:31657,y:33183,ptovrint:False,ptlb:Metallic Power,ptin:_MetallicPower,varname:node_358,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:0,cur:0.5,max:1;n:type:ShaderForge.SFN_TexCoord,id:8921,x:30863,y:32031,varname:node_8921,prsc:2,uv:0,uaff:False;n:type:ShaderForge.SFN_ComponentMask,id:9093,x:31080,y:32114,varname:node_9093,prsc:2,cc1:0,cc2:1,cc3:-1,cc4:-1|IN-8921-UVOUT;n:type:ShaderForge.SFN_Time,id:527,x:30787,y:32207,varname:node_527,prsc:2;n:type:ShaderForge.SFN_Slider,id:9904,x:30580,y:32550,ptovrint:False,ptlb:Speed,ptin:_Speed,varname:node_7445,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:0,cur:1,max:1;n:type:ShaderForge.SFN_Multiply,id:6138,x:30958,y:32497,varname:node_6138,prsc:2|A-2750-OUT,B-9904-OUT;n:type:ShaderForge.SFN_Multiply,id:4344,x:30987,y:32346,varname:node_4344,prsc:2|A-527-T,B-6138-OUT;n:type:ShaderForge.SFN_Add,id:3249,x:31170,y:32289,varname:node_3249,prsc:2|A-9093-G,B-4344-OUT;n:type:ShaderForge.SFN_Append,id:5017,x:31333,y:32170,varname:node_5017,prsc:2|A-9093-R,B-3249-OUT;n:type:ShaderForge.SFN_Slider,id:2750,x:30580,y:32409,ptovrint:False,ptlb:Direction,ptin:_Direction,varname:_Speed_copy,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:-1,cur:1,max:1;n:type:ShaderForge.SFN_Tex2d,id:9432,x:31695,y:33390,ptovrint:False,ptlb:Roughness,ptin:_Roughness,varname:_Metallic_copy,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,ntxv:0,isnm:False;n:type:ShaderForge.SFN_Slider,id:4266,x:31552,y:33636,ptovrint:False,ptlb:Roughness Power,ptin:_RoughnessPower,varname:node_211,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:0,cur:0.5,max:1;n:type:ShaderForge.SFN_Multiply,id:991,x:32059,y:33219,varname:node_991,prsc:2|A-9432-R,B-3843-OUT;n:type:ShaderForge.SFN_RemapRange,id:3843,x:31971,y:33445,varname:node_3843,prsc:2,frmn:0,frmx:1,tomn:0.2,tomx:1|IN-4266-OUT;n:type:ShaderForge.SFN_Multiply,id:4036,x:32169,y:32970,varname:node_4036,prsc:2|A-8066-R,B-4372-OUT;n:type:ShaderForge.SFN_Tex2d,id:8066,x:31736,y:32979,ptovrint:False,ptlb:Metallic Map,ptin:_MetallicMap,varname:_Roughness_copy,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,ntxv:0,isnm:False;n:type:ShaderForge.SFN_Tex2d,id:3370,x:31813,y:32569,ptovrint:False,ptlb:Albedo,ptin:_Albedo,varname:node_3826,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,ntxv:0,isnm:False;n:type:ShaderForge.SFN_Tex2d,id:9710,x:31602,y:32049,ptovrint:False,ptlb:Mask Map,ptin:_MaskMap,varname:node_5376,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,ntxv:2,isnm:False;n:type:ShaderForge.SFN_Tex2d,id:2257,x:31602,y:32259,ptovrint:False,ptlb:Animated Albedo,ptin:_AnimatedAlbedo,varname:node_564,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,ntxv:0,isnm:False|UVIN-5017-OUT;n:type:ShaderForge.SFN_Tex2d,id:6932,x:31544,y:32766,ptovrint:False,ptlb:Occlusion Map,ptin:_OcclusionMap,varname:node_6256,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,ntxv:0,isnm:False;n:type:ShaderForge.SFN_Multiply,id:7076,x:31765,y:32751,varname:node_7076,prsc:2|A-3370-RGB,B-6932-RGB;n:type:ShaderForge.SFN_Blend,id:7335,x:32021,y:32336,varname:node_7335,prsc:2,blmd:1,clmp:True|SRC-9710-RGB,DST-2257-RGB;n:type:ShaderForge.SFN_ChannelBlend,id:4720,x:32294,y:32303,varname:node_4720,prsc:2,chbt:1|M-9710-R,R-7335-OUT,BTM-5011-OUT;proporder:3370-6828-5830-8066-4372-9432-4266-6932-2257-9710-9904-2750;pass:END;sub:END;*/
+/*SF_DATA;ver:1.38;sub:START;pass:START;ps:flbk:,iptp:0,cusa:False,bamd:0,cgin:,lico:1,lgpr:1,limd:3,spmd:1,trmd:0,grmd:1,uamb:True,mssp:True,bkdf:True,hqlp:False,rprd:True,enco:False,rmgx:True,imps:True,rpth:0,vtps:0,hqsc:True,nrmq:1,nrsp:0,vomd:0,spxs:False,tesm:0,olmd:1,culm:0,bsrc:0,bdst:1,dpts:2,wrdp:True,dith:0,atcv:False,rfrpo:True,rfrpn:Refraction,coma:15,ufog:True,aust:True,igpj:False,qofs:0,qpre:1,rntp:1,fgom:False,fgoc:False,fgod:False,fgor:False,fgmd:0,fgcr:0.5,fgcg:0.5,fgcb:0.5,fgca:1,fgde:0.01,fgrn:0,fgrf:300,stcl:False,atwp:False,stva:128,stmr:255,stmw:255,stcp:6,stps:0,stfa:0,stfz:0,ofsf:0,ofsu:0,f2p0:False,fnsp:False,fnfb:False,fsmp:False;n:type:ShaderForge.SFN_Final,id:2865,x:32762,y:32843,varname:node_2865,prsc:2|diff-4720-OUT,spec-4036-OUT,gloss-991-OUT,normal-5830-RGB,emission-1439-OUT;n:type:ShaderForge.SFN_Multiply,id:5011,x:32056,y:32727,varname:node_5011,prsc:2|A-7076-OUT,B-6828-RGB;n:type:ShaderForge.SFN_Color,id:6828,x:31879,y:32820,ptovrint:False,ptlb:Color,ptin:_Color,varname:_Color,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,c1:1,c2:1,c3:1,c4:1;n:type:ShaderForge.SFN_Tex2d,id:5830,x:32312,y:32614,ptovrint:True,ptlb:Normal Map,ptin:_BumpMap,varname:_BumpMap,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,ntxv:3,isnm:True;n:type:ShaderForge.SFN_Slider,id:4372,x:31002,y:33237,ptovrint:False,ptlb:Metallic Power,ptin:_MetallicPower,varname:node_358,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:0,cur:0.5,max:1;n:type:ShaderForge.SFN_TexCoord,id:8921,x:30863,y:32031,varname:node_8921,prsc:2,uv:0,uaff:False;n:type:ShaderForge.SFN_ComponentMask,id:9093,x:31080,y:32114,varname:node_9093,prsc:2,cc1:0,cc2:1,cc3:-1,cc4:-1|IN-8921-UVOUT;n:type:ShaderForge.SFN_Time,id:527,x:30787,y:32207,varname:node_527,prsc:2;n:type:ShaderForge.SFN_Slider,id:9904,x:30580,y:32550,ptovrint:False,ptlb:Speed,ptin:_Speed,varname:node_7445,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:0,cur:1,max:1;n:type:ShaderForge.SFN_Multiply,id:6138,x:30958,y:32497,varname:node_6138,prsc:2|A-2750-OUT,B-9904-OUT;n:type:ShaderForge.SFN_Multiply,id:4344,x:30987,y:32346,varname:node_4344,prsc:2|A-527-T,B-6138-OUT;n:type:ShaderForge.SFN_Add,id:3249,x:31170,y:32289,varname:node_3249,prsc:2|A-9093-G,B-4344-OUT;n:type:ShaderForge.SFN_Append,id:5017,x:31333,y:32170,varname:node_5017,prsc:2|A-9093-R,B-3249-OUT;n:type:ShaderForge.SFN_Slider,id:2750,x:30580,y:32409,ptovrint:False,ptlb:Direction,ptin:_Direction,varname:_Speed_copy,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:-1,cur:1,max:1;n:type:ShaderForge.SFN_Tex2d,id:9432,x:31124,y:33351,ptovrint:False,ptlb:Roughness,ptin:_Roughness,varname:_Metallic_copy,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,ntxv:0,isnm:False;n:type:ShaderForge.SFN_Slider,id:4266,x:30981,y:33597,ptovrint:False,ptlb:Roughness Power,ptin:_RoughnessPower,varname:node_211,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:0,cur:0.5,max:1;n:type:ShaderForge.SFN_Multiply,id:991,x:31500,y:33180,varname:node_991,prsc:2|A-9432-R,B-3843-OUT;n:type:ShaderForge.SFN_RemapRange,id:3843,x:31400,y:33406,varname:node_3843,prsc:2,frmn:0,frmx:1,tomn:0.2,tomx:1|IN-4266-OUT;n:type:ShaderForge.SFN_Multiply,id:4036,x:31510,y:33001,varname:node_4036,prsc:2|A-8066-R,B-4372-OUT;n:type:ShaderForge.SFN_Tex2d,id:8066,x:31071,y:33010,ptovrint:False,ptlb:Metallic Map,ptin:_MetallicMap,varname:_Roughness_copy,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,ntxv:0,isnm:False;n:type:ShaderForge.SFN_Tex2d,id:3370,x:31813,y:32569,ptovrint:False,ptlb:Albedo,ptin:_Albedo,varname:node_3826,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,ntxv:0,isnm:False;n:type:ShaderForge.SFN_Tex2d,id:9710,x:31602,y:32049,ptovrint:False,ptlb:Mask Map,ptin:_MaskMap,varname:node_5376,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,ntxv:2,isnm:False;n:type:ShaderForge.SFN_Tex2d,id:2257,x:31602,y:32259,ptovrint:False,ptlb:Animated Albedo,ptin:_AnimatedAlbedo,varname:node_564,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,ntxv:0,isnm:False|UVIN-5017-OUT;n:type:ShaderForge.SFN_Tex2d,id:6932,x:31544,y:32766,ptovrint:False,ptlb:Occlusion Map,ptin:_OcclusionMap,varname:node_6256,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,ntxv:0,isnm:False;n:type:ShaderForge.SFN_Multiply,id:7076,x:31765,y:32751,varname:node_7076,prsc:2|A-3370-RGB,B-6932-RGB;n:type:ShaderForge.SFN_Blend,id:7335,x:31891,y:32305,varname:node_7335,prsc:2,blmd:1,clmp:True|SRC-9710-RGB,DST-2257-RGB;n:type:ShaderForge.SFN_ChannelBlend,id:4720,x:32294,y:32303,varname:node_4720,prsc:2,chbt:1|M-9710-R,R-7335-OUT,BTM-5011-OUT;n:type:ShaderForge.SFN_Tex2d,id:3711,x:31824,y:33270,ptovrint:False,ptlb:Animated Emission Map,ptin:_AnimatedEmissionMap,varname:node_3711,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,ntxv:2,isnm:False|UVIN-5017-OUT;n:type:ShaderForge.SFN_Slider,id:749,x:31809,y:33479,ptovrint:False,ptlb:Animated Emission Power,ptin:_AnimatedEmissionPower,varname:node_749,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:0,cur:1,max:1;n:type:ShaderForge.SFN_Multiply,id:5837,x:32048,y:33243,varname:node_5837,prsc:2|A-3711-RGB,B-749-OUT;n:type:ShaderForge.SFN_Color,id:6541,x:32342,y:33419,ptovrint:False,ptlb:Animated Emission Color,ptin:_AnimatedEmissionColor,varname:node_6541,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,c1:1,c2:1,c3:1,c4:1;n:type:ShaderForge.SFN_Multiply,id:7455,x:32325,y:33151,varname:node_7455,prsc:2|A-5837-OUT,B-6541-RGB;n:type:ShaderForge.SFN_Blend,id:1439,x:32547,y:32989,varname:node_1439,prsc:2,blmd:1,clmp:True|SRC-9710-RGB,DST-7455-OUT;proporder:3370-6828-5830-8066-4372-9432-4266-6932-9710-2257-3711-6541-749-9904-2750;pass:END;sub:END;*/
 
 Shader "CVR_VFX_Shaders/CVR_Animated_PBR_Badge" {
     Properties {
@@ -13,8 +13,11 @@ Shader "CVR_VFX_Shaders/CVR_Animated_PBR_Badge" {
         _Roughness ("Roughness", 2D) = "white" {}
         _RoughnessPower ("Roughness Power", Range(0, 1)) = 0.5
         _OcclusionMap ("Occlusion Map", 2D) = "white" {}
-        _AnimatedAlbedo ("Animated Albedo", 2D) = "white" {}
         _MaskMap ("Mask Map", 2D) = "black" {}
+        _AnimatedAlbedo ("Animated Albedo", 2D) = "white" {}
+        _AnimatedEmissionMap ("Animated Emission Map", 2D) = "black" {}
+        _AnimatedEmissionColor ("Animated Emission Color", Color) = (1,1,1,1)
+        _AnimatedEmissionPower ("Animated Emission Power", Range(0, 1)) = 1
         _Speed ("Speed", Range(0, 1)) = 1
         _Direction ("Direction", Range(-1, 1)) = 1
     }
@@ -59,6 +62,9 @@ Shader "CVR_VFX_Shaders/CVR_Animated_PBR_Badge" {
             uniform sampler2D _MaskMap; uniform float4 _MaskMap_ST;
             uniform sampler2D _AnimatedAlbedo; uniform float4 _AnimatedAlbedo_ST;
             uniform sampler2D _OcclusionMap; uniform float4 _OcclusionMap_ST;
+            uniform sampler2D _AnimatedEmissionMap; uniform float4 _AnimatedEmissionMap_ST;
+            uniform float _AnimatedEmissionPower;
+            uniform float4 _AnimatedEmissionColor;
             struct VertexInput {
                 float4 vertex : POSITION;
                 float3 normal : NORMAL;
@@ -176,13 +182,11 @@ Shader "CVR_VFX_Shaders/CVR_Animated_PBR_Badge" {
                 float4 _MaskMap_var = tex2D(_MaskMap,TRANSFORM_TEX(i.uv0, _MaskMap));
                 float4 _Albedo_var = tex2D(_Albedo,TRANSFORM_TEX(i.uv0, _Albedo));
                 float4 _OcclusionMap_var = tex2D(_OcclusionMap,TRANSFORM_TEX(i.uv0, _OcclusionMap));
-                float3 node_5011 = ((_Albedo_var.rgb*_OcclusionMap_var.rgb)*_Color.rgb);
                 float2 node_9093 = i.uv0.rg;
                 float4 node_527 = _Time;
                 float2 node_5017 = float2(node_9093.r,(node_9093.g+(node_527.g*(_Direction*_Speed))));
                 float4 _AnimatedAlbedo_var = tex2D(_AnimatedAlbedo,TRANSFORM_TEX(node_5017, _AnimatedAlbedo));
-                float3 node_7335 = saturate((_MaskMap_var.rgb*_AnimatedAlbedo_var.rgb));
-                float3 diffuseColor = (lerp( node_5011, node_7335, _MaskMap_var.r.r )); // Need this for specular when using metallic
+                float3 diffuseColor = (lerp( ((_Albedo_var.rgb*_OcclusionMap_var.rgb)*_Color.rgb), saturate((_MaskMap_var.rgb*_AnimatedAlbedo_var.rgb)), _MaskMap_var.r.r )); // Need this for specular when using metallic
                 diffuseColor = DiffuseAndSpecularFromMetallic( diffuseColor, specularColor, specularColor, specularMonochrome );
                 specularMonochrome = 1.0-specularMonochrome;
                 float NdotV = abs(dot( normalDirection, viewDirection ));
@@ -220,8 +224,11 @@ Shader "CVR_VFX_Shaders/CVR_Animated_PBR_Badge" {
                 float3 indirectDiffuse = float3(0,0,0);
                 indirectDiffuse += gi.indirect.diffuse;
                 float3 diffuse = (directDiffuse + indirectDiffuse) * diffuseColor;
+////// Emissive:
+                float4 _AnimatedEmissionMap_var = tex2D(_AnimatedEmissionMap,TRANSFORM_TEX(node_5017, _AnimatedEmissionMap));
+                float3 emissive = saturate((_MaskMap_var.rgb*((_AnimatedEmissionMap_var.rgb*_AnimatedEmissionPower)*_AnimatedEmissionColor.rgb)));
 /// Final Color:
-                float3 finalColor = diffuse + specular;
+                float3 finalColor = diffuse + specular + emissive;
                 fixed4 finalRGBA = fixed4(finalColor,1);
                 UNITY_APPLY_FOG(i.fogCoord, finalRGBA);
                 return finalRGBA;
@@ -266,6 +273,9 @@ Shader "CVR_VFX_Shaders/CVR_Animated_PBR_Badge" {
             uniform sampler2D _MaskMap; uniform float4 _MaskMap_ST;
             uniform sampler2D _AnimatedAlbedo; uniform float4 _AnimatedAlbedo_ST;
             uniform sampler2D _OcclusionMap; uniform float4 _OcclusionMap_ST;
+            uniform sampler2D _AnimatedEmissionMap; uniform float4 _AnimatedEmissionMap_ST;
+            uniform float _AnimatedEmissionPower;
+            uniform float4 _AnimatedEmissionColor;
             struct VertexInput {
                 float4 vertex : POSITION;
                 float3 normal : NORMAL;
@@ -331,13 +341,11 @@ Shader "CVR_VFX_Shaders/CVR_Animated_PBR_Badge" {
                 float4 _MaskMap_var = tex2D(_MaskMap,TRANSFORM_TEX(i.uv0, _MaskMap));
                 float4 _Albedo_var = tex2D(_Albedo,TRANSFORM_TEX(i.uv0, _Albedo));
                 float4 _OcclusionMap_var = tex2D(_OcclusionMap,TRANSFORM_TEX(i.uv0, _OcclusionMap));
-                float3 node_5011 = ((_Albedo_var.rgb*_OcclusionMap_var.rgb)*_Color.rgb);
                 float2 node_9093 = i.uv0.rg;
                 float4 node_527 = _Time;
                 float2 node_5017 = float2(node_9093.r,(node_9093.g+(node_527.g*(_Direction*_Speed))));
                 float4 _AnimatedAlbedo_var = tex2D(_AnimatedAlbedo,TRANSFORM_TEX(node_5017, _AnimatedAlbedo));
-                float3 node_7335 = saturate((_MaskMap_var.rgb*_AnimatedAlbedo_var.rgb));
-                float3 diffuseColor = (lerp( node_5011, node_7335, _MaskMap_var.r.r )); // Need this for specular when using metallic
+                float3 diffuseColor = (lerp( ((_Albedo_var.rgb*_OcclusionMap_var.rgb)*_Color.rgb), saturate((_MaskMap_var.rgb*_AnimatedAlbedo_var.rgb)), _MaskMap_var.r.r )); // Need this for specular when using metallic
                 diffuseColor = DiffuseAndSpecularFromMetallic( diffuseColor, specularColor, specularColor, specularMonochrome );
                 specularMonochrome = 1.0-specularMonochrome;
                 float NdotV = abs(dot( normalDirection, viewDirection ));
@@ -408,6 +416,9 @@ Shader "CVR_VFX_Shaders/CVR_Animated_PBR_Badge" {
             uniform sampler2D _MaskMap; uniform float4 _MaskMap_ST;
             uniform sampler2D _AnimatedAlbedo; uniform float4 _AnimatedAlbedo_ST;
             uniform sampler2D _OcclusionMap; uniform float4 _OcclusionMap_ST;
+            uniform sampler2D _AnimatedEmissionMap; uniform float4 _AnimatedEmissionMap_ST;
+            uniform float _AnimatedEmissionPower;
+            uniform float4 _AnimatedEmissionColor;
             struct VertexInput {
                 float4 vertex : POSITION;
                 float2 texcoord0 : TEXCOORD0;
@@ -435,18 +446,17 @@ Shader "CVR_VFX_Shaders/CVR_Animated_PBR_Badge" {
                 UnityMetaInput o;
                 UNITY_INITIALIZE_OUTPUT( UnityMetaInput, o );
                 
-                o.Emission = 0;
-                
                 float4 _MaskMap_var = tex2D(_MaskMap,TRANSFORM_TEX(i.uv0, _MaskMap));
-                float4 _Albedo_var = tex2D(_Albedo,TRANSFORM_TEX(i.uv0, _Albedo));
-                float4 _OcclusionMap_var = tex2D(_OcclusionMap,TRANSFORM_TEX(i.uv0, _OcclusionMap));
-                float3 node_5011 = ((_Albedo_var.rgb*_OcclusionMap_var.rgb)*_Color.rgb);
                 float2 node_9093 = i.uv0.rg;
                 float4 node_527 = _Time;
                 float2 node_5017 = float2(node_9093.r,(node_9093.g+(node_527.g*(_Direction*_Speed))));
+                float4 _AnimatedEmissionMap_var = tex2D(_AnimatedEmissionMap,TRANSFORM_TEX(node_5017, _AnimatedEmissionMap));
+                o.Emission = saturate((_MaskMap_var.rgb*((_AnimatedEmissionMap_var.rgb*_AnimatedEmissionPower)*_AnimatedEmissionColor.rgb)));
+                
+                float4 _Albedo_var = tex2D(_Albedo,TRANSFORM_TEX(i.uv0, _Albedo));
+                float4 _OcclusionMap_var = tex2D(_OcclusionMap,TRANSFORM_TEX(i.uv0, _OcclusionMap));
                 float4 _AnimatedAlbedo_var = tex2D(_AnimatedAlbedo,TRANSFORM_TEX(node_5017, _AnimatedAlbedo));
-                float3 node_7335 = saturate((_MaskMap_var.rgb*_AnimatedAlbedo_var.rgb));
-                float3 diffColor = (lerp( node_5011, node_7335, _MaskMap_var.r.r ));
+                float3 diffColor = (lerp( ((_Albedo_var.rgb*_OcclusionMap_var.rgb)*_Color.rgb), saturate((_MaskMap_var.rgb*_AnimatedAlbedo_var.rgb)), _MaskMap_var.r.r ));
                 float specularMonochrome;
                 float3 specColor;
                 float4 _MetallicMap_var = tex2D(_MetallicMap,TRANSFORM_TEX(i.uv0, _MetallicMap));
