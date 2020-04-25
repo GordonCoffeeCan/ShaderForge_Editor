@@ -1,264 +1,390 @@
-// Shader created with Shader Forge v1.38 
-// Shader Forge (c) Neat Corporation / Joachim Holmer - http://www.acegikmo.com/shaderforge/
-// Note: Manually altering this data may prevent you from opening it in Shader Forge
-/*SF_DATA;ver:1.38;sub:START;pass:START;ps:flbk:,iptp:0,cusa:False,bamd:0,cgin:,lico:1,lgpr:1,limd:0,spmd:1,trmd:0,grmd:0,uamb:True,mssp:True,bkdf:False,hqlp:False,rprd:False,enco:False,rmgx:True,imps:True,rpth:0,vtps:0,hqsc:True,nrmq:1,nrsp:0,vomd:0,spxs:False,tesm:0,olmd:1,culm:2,bsrc:3,bdst:7,dpts:2,wrdp:False,dith:0,atcv:False,rfrpo:True,rfrpn:Refraction,coma:15,ufog:False,aust:True,igpj:True,qofs:0,qpre:3,rntp:2,fgom:False,fgoc:False,fgod:False,fgor:False,fgmd:0,fgcr:0,fgcg:0,fgcb:0,fgca:1,fgde:0.05,fgrn:0,fgrf:300,stcl:False,atwp:False,stva:128,stmr:255,stmw:255,stcp:6,stps:0,stfa:0,stfz:0,ofsf:0,ofsu:0,f2p0:False,fnsp:False,fnfb:False,fsmp:False;n:type:ShaderForge.SFN_Final,id:9361,x:33359,y:32502,varname:node_9361,prsc:2|normal-8562-RGB,emission-336-OUT,custl-6744-OUT,alpha-9059-OUT,refract-6231-OUT;n:type:ShaderForge.SFN_Color,id:3211,x:32096,y:32316,ptovrint:False,ptlb:Color,ptin:_Color,varname:node_3211,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,c1:0.5,c2:0.5,c3:0.5,c4:1;n:type:ShaderForge.SFN_Slider,id:9236,x:32632,y:32674,ptovrint:False,ptlb:Transparency,ptin:_Transparency,varname:node_9236,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:0,cur:0.5,max:1;n:type:ShaderForge.SFN_NormalVector,id:3994,x:31330,y:32628,prsc:2,pt:True;n:type:ShaderForge.SFN_LightVector,id:5482,x:31024,y:32329,varname:node_5482,prsc:2;n:type:ShaderForge.SFN_Dot,id:164,x:31510,y:32548,varname:node_164,prsc:2,dt:1|A-5482-OUT,B-3994-OUT;n:type:ShaderForge.SFN_Vector1,id:8791,x:31671,y:32781,varname:node_8791,prsc:2,v1:0.5;n:type:ShaderForge.SFN_Add,id:1026,x:31707,y:32625,varname:node_1026,prsc:2|A-164-OUT,B-8791-OUT;n:type:ShaderForge.SFN_Multiply,id:8240,x:31903,y:32641,varname:node_8240,prsc:2|A-1026-OUT,B-8791-OUT;n:type:ShaderForge.SFN_Multiply,id:2996,x:32078,y:32513,varname:node_2996,prsc:2|A-8240-OUT,B-8240-OUT;n:type:ShaderForge.SFN_Multiply,id:556,x:32362,y:32348,varname:node_556,prsc:2|A-3211-RGB,B-2996-OUT,C-7556-RGB;n:type:ShaderForge.SFN_LightColor,id:197,x:32860,y:32518,varname:node_197,prsc:2;n:type:ShaderForge.SFN_Multiply,id:6744,x:32871,y:32300,varname:node_6744,prsc:2|A-5694-OUT,B-197-RGB;n:type:ShaderForge.SFN_ViewReflectionVector,id:3536,x:31181,y:31977,varname:node_3536,prsc:2;n:type:ShaderForge.SFN_Dot,id:3794,x:31467,y:32005,varname:node_3794,prsc:2,dt:1|A-3536-OUT,B-5482-OUT;n:type:ShaderForge.SFN_Power,id:2668,x:32082,y:32022,varname:node_2668,prsc:2|VAL-3794-OUT,EXP-2300-OUT;n:type:ShaderForge.SFN_Exp,id:2300,x:31880,y:32083,varname:node_2300,prsc:2,et:1|IN-436-OUT;n:type:ShaderForge.SFN_Slider,id:9168,x:31297,y:32237,ptovrint:False,ptlb:SpecPower,ptin:_SpecPower,varname:node_9168,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:0,cur:0.5,max:1;n:type:ShaderForge.SFN_Slider,id:7420,x:31624,y:31776,ptovrint:False,ptlb:SpecIntensity,ptin:_SpecIntensity,varname:node_7420,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:0,cur:0.5,max:1;n:type:ShaderForge.SFN_Multiply,id:6981,x:32101,y:31849,varname:node_6981,prsc:2|A-7420-OUT,B-2668-OUT;n:type:ShaderForge.SFN_Add,id:5694,x:32634,y:32288,varname:node_5694,prsc:2|A-6981-OUT,B-556-OUT,C-9414-OUT;n:type:ShaderForge.SFN_Tex2d,id:8562,x:33295,y:32285,ptovrint:False,ptlb:NormalMap,ptin:_NormalMap,varname:node_8562,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,ntxv:2,isnm:False|UVIN-8083-UVOUT;n:type:ShaderForge.SFN_NormalVector,id:5627,x:32481,y:33013,prsc:2,pt:True;n:type:ShaderForge.SFN_Transform,id:694,x:32748,y:33026,varname:node_694,prsc:2,tffrom:0,tfto:3|IN-6468-OUT;n:type:ShaderForge.SFN_ComponentMask,id:6511,x:32950,y:33026,varname:node_6511,prsc:2,cc1:0,cc2:1,cc3:-1,cc4:-1|IN-694-XYZ;n:type:ShaderForge.SFN_Multiply,id:6231,x:33155,y:33069,varname:node_6231,prsc:2|A-6511-OUT,B-3767-OUT,C-9059-OUT;n:type:ShaderForge.SFN_Slider,id:810,x:32697,y:33307,ptovrint:False,ptlb:RefectionScale,ptin:_RefectionScale,varname:node_810,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:0,cur:0.5,max:1;n:type:ShaderForge.SFN_Vector1,id:9696,x:32854,y:33205,varname:node_9696,prsc:2,v1:-0.1;n:type:ShaderForge.SFN_Multiply,id:3767,x:33127,y:33222,varname:node_3767,prsc:2|A-9696-OUT,B-810-OUT;n:type:ShaderForge.SFN_Fresnel,id:8999,x:31754,y:32915,varname:node_8999,prsc:2|NRM-3994-OUT,EXP-3223-OUT;n:type:ShaderForge.SFN_Slider,id:1335,x:30997,y:32933,ptovrint:False,ptlb:FallOffAmount,ptin:_FallOffAmount,varname:node_1335,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:0,cur:0.5,max:1;n:type:ShaderForge.SFN_Multiply,id:9414,x:32568,y:32460,varname:node_9414,prsc:2|A-556-OUT,B-88-OUT,C-6238-RGB;n:type:ShaderForge.SFN_Multiply,id:88,x:32205,y:32855,varname:node_88,prsc:2|A-8999-OUT,B-778-OUT;n:type:ShaderForge.SFN_Slider,id:3992,x:31676,y:33136,ptovrint:False,ptlb:FallOffIntensity,ptin:_FallOffIntensity,varname:node_3992,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:0,cur:0.5,max:1;n:type:ShaderForge.SFN_Color,id:6238,x:32480,y:32637,ptovrint:False,ptlb:FallOffColor,ptin:_FallOffColor,varname:node_6238,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,c1:0.5,c2:0.5,c3:0.5,c4:1;n:type:ShaderForge.SFN_RemapRange,id:497,x:32954,y:32674,varname:node_497,prsc:2,frmn:0,frmx:1,tomn:1,tomx:0|IN-9236-OUT;n:type:ShaderForge.SFN_RemapRange,id:8330,x:31627,y:32237,varname:node_8330,prsc:2,frmn:0,frmx:1,tomn:1,tomx:0|IN-9168-OUT;n:type:ShaderForge.SFN_Multiply,id:436,x:31854,y:32244,varname:node_436,prsc:2|A-8330-OUT,B-1130-OUT;n:type:ShaderForge.SFN_Vector1,id:1130,x:31827,y:32455,varname:node_1130,prsc:2,v1:8;n:type:ShaderForge.SFN_Vector1,id:203,x:31154,y:33067,varname:node_203,prsc:2,v1:5;n:type:ShaderForge.SFN_Vector1,id:6650,x:31833,y:33272,varname:node_6650,prsc:2,v1:20;n:type:ShaderForge.SFN_Multiply,id:3223,x:31393,y:32972,varname:node_3223,prsc:2|A-1335-OUT,B-203-OUT;n:type:ShaderForge.SFN_Multiply,id:778,x:32038,y:33046,varname:node_778,prsc:2|A-3992-OUT,B-6650-OUT;n:type:ShaderForge.SFN_Tex2d,id:6252,x:33354,y:31506,ptovrint:False,ptlb:EmissionTexture,ptin:_EmissionTexture,varname:node_6252,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,ntxv:0,isnm:False|UVIN-8083-UVOUT;n:type:ShaderForge.SFN_TexCoord,id:5600,x:32335,y:31545,varname:node_5600,prsc:2,uv:0,uaff:False;n:type:ShaderForge.SFN_Tex2d,id:9388,x:32665,y:31842,ptovrint:False,ptlb:Nosie,ptin:_Nosie,varname:node_9388,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,ntxv:0,isnm:False|UVIN-6747-UVOUT;n:type:ShaderForge.SFN_Panner,id:6747,x:32679,y:31636,varname:node_6747,prsc:2,spu:0,spv:0.2|UVIN-5600-UVOUT;n:type:ShaderForge.SFN_ComponentMask,id:6644,x:32892,y:31842,varname:node_6644,prsc:2,cc1:0,cc2:0,cc3:-1,cc4:-1|IN-9388-RGB;n:type:ShaderForge.SFN_Slider,id:5088,x:33027,y:32136,ptovrint:False,ptlb:NoiseIntensity,ptin:_NoiseIntensity,varname:node_5088,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:0,cur:0.5,max:10;n:type:ShaderForge.SFN_Multiply,id:7644,x:33138,y:31842,varname:node_7644,prsc:2|A-6644-OUT,B-5088-OUT;n:type:ShaderForge.SFN_Tex2d,id:7556,x:32279,y:32572,ptovrint:False,ptlb:AlbedoTexture,ptin:_AlbedoTexture,varname:node_7556,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,ntxv:0,isnm:False|UVIN-8083-UVOUT;n:type:ShaderForge.SFN_Multiply,id:336,x:33678,y:31876,varname:node_336,prsc:2|A-6252-RGB,B-3694-RGB;n:type:ShaderForge.SFN_Multiply,id:6468,x:32546,y:33206,varname:node_6468,prsc:2|A-5627-OUT,B-7644-OUT;n:type:ShaderForge.SFN_Panner,id:8083,x:32679,y:31455,varname:node_8083,prsc:2,spu:0,spv:0.1|UVIN-5600-UVOUT;n:type:ShaderForge.SFN_Tex2d,id:6174,x:32911,y:32857,ptovrint:False,ptlb:AlphaShape,ptin:_AlphaShape,varname:node_6174,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,ntxv:0,isnm:False;n:type:ShaderForge.SFN_Multiply,id:9059,x:33130,y:32741,varname:node_9059,prsc:2|A-497-OUT,B-6174-R;n:type:ShaderForge.SFN_Color,id:3694,x:33354,y:31719,ptovrint:False,ptlb:EmissionColor,ptin:_EmissionColor,varname:node_3694,prsc:2,glob:False,taghide:False,taghdr:True,tagprd:False,tagnsco:False,tagnrm:False,c1:0.5,c2:0.5,c3:0.5,c4:1;proporder:3211-3694-6238-7556-8562-6252-9388-6174-9236-9168-7420-810-1335-3992-5088;pass:END;sub:END;*/
+// Made with Amplify Shader Editor
+// Available at the Unity Asset Store - http://u3d.as/y3X 
+Shader "CVR_VFX_Shaders/CVR_VFX_FloatingGlass"
+{
+	Properties
+	{
+		_FallOffIntensity("Fall Off Intensity", Range( 0 , 1)) = 0.5
+		_FallOffAmount("Fall Off Amount", Range( 0 , 1)) = 0.5
+		_FallOffColor("Fall Off Color", Color) = (0,0,0,0)
+		_Color("Color", Color) = (0,0,0,0)
+		_Albedo("Albedo", 2D) = "white" {}
+		_SpacularIntensity("Spacular Intensity", Range( 0 , 1)) = 0.5
+		_SpacularPower("Spacular Power", Range( 0 , 1)) = 0.5
+		_Emission("Emission", 2D) = "bump" {}
+		_Normal("Normal", 2D) = "bump" {}
+		_Alpha("Alpha", 2D) = "white" {}
+		[HideInInspector] _texcoord( "", 2D ) = "white" {}
+		[HideInInspector] __dirty( "", Int ) = 1
+	}
 
-Shader "CVR_VFX_Shaders/FloatingGlassShader" {
-    Properties {
-        _Color ("Color", Color) = (0.5,0.5,0.5,1)
-        [HDR]_EmissionColor ("EmissionColor", Color) = (0.5,0.5,0.5,1)
-        _FallOffColor ("FallOffColor", Color) = (0.5,0.5,0.5,1)
-        _AlbedoTexture ("AlbedoTexture", 2D) = "white" {}
-        _NormalMap ("NormalMap", 2D) = "black" {}
-        _EmissionTexture ("EmissionTexture", 2D) = "white" {}
-        _Nosie ("Nosie", 2D) = "white" {}
-        _AlphaShape ("AlphaShape", 2D) = "white" {}
-        _Transparency ("Transparency", Range(0, 1)) = 0.5
-        _SpecPower ("SpecPower", Range(0, 1)) = 0.5
-        _SpecIntensity ("SpecIntensity", Range(0, 1)) = 0.5
-        _RefectionScale ("RefectionScale", Range(0, 1)) = 0.5
-        _FallOffAmount ("FallOffAmount", Range(0, 1)) = 0.5
-        _FallOffIntensity ("FallOffIntensity", Range(0, 1)) = 0.5
-        _NoiseIntensity ("NoiseIntensity", Range(0, 10)) = 0.5
-        [HideInInspector]_Cutoff ("Alpha cutoff", Range(0,1)) = 0.5
-    }
-    SubShader {
-        Tags {
-            "IgnoreProjector"="True"
-            "Queue"="Transparent"
-            "RenderType"="Transparent"
-        }
-        GrabPass{ }
-        Pass {
-            Name "FORWARD"
-            Tags {
-                "LightMode"="ForwardBase"
-            }
-            Blend SrcAlpha OneMinusSrcAlpha
-            Cull Off
-            ZWrite Off
-            
-            CGPROGRAM
-            #pragma vertex vert
-            #pragma fragment frag
-            #define UNITY_PASS_FORWARDBASE
-            #include "UnityCG.cginc"
-            #pragma multi_compile_fwdbase
-            #pragma only_renderers d3d9 d3d11 glcore gles 
-            #pragma target 3.0
-            uniform float4 _LightColor0;
-            uniform sampler2D _GrabTexture;
-            uniform float4 _Color;
-            uniform float _Transparency;
-            uniform float _SpecPower;
-            uniform float _SpecIntensity;
-            uniform sampler2D _NormalMap; uniform float4 _NormalMap_ST;
-            uniform float _RefectionScale;
-            uniform float _FallOffAmount;
-            uniform float _FallOffIntensity;
-            uniform float4 _FallOffColor;
-            uniform sampler2D _EmissionTexture; uniform float4 _EmissionTexture_ST;
-            uniform sampler2D _Nosie; uniform float4 _Nosie_ST;
-            uniform float _NoiseIntensity;
-            uniform sampler2D _AlbedoTexture; uniform float4 _AlbedoTexture_ST;
-            uniform sampler2D _AlphaShape; uniform float4 _AlphaShape_ST;
-            uniform float4 _EmissionColor;
-            struct VertexInput {
-                float4 vertex : POSITION;
-                float3 normal : NORMAL;
-                float4 tangent : TANGENT;
-                float2 texcoord0 : TEXCOORD0;
-            };
-            struct VertexOutput {
-                float4 pos : SV_POSITION;
-                float2 uv0 : TEXCOORD0;
-                float4 posWorld : TEXCOORD1;
-                float3 normalDir : TEXCOORD2;
-                float3 tangentDir : TEXCOORD3;
-                float3 bitangentDir : TEXCOORD4;
-                float4 projPos : TEXCOORD5;
-            };
-            VertexOutput vert (VertexInput v) {
-                VertexOutput o = (VertexOutput)0;
-                o.uv0 = v.texcoord0;
-                o.normalDir = UnityObjectToWorldNormal(v.normal);
-                o.tangentDir = normalize( mul( unity_ObjectToWorld, float4( v.tangent.xyz, 0.0 ) ).xyz );
-                o.bitangentDir = normalize(cross(o.normalDir, o.tangentDir) * v.tangent.w);
-                o.posWorld = mul(unity_ObjectToWorld, v.vertex);
-                float3 lightColor = _LightColor0.rgb;
-                o.pos = UnityObjectToClipPos( v.vertex );
-                o.projPos = ComputeScreenPos (o.pos);
-                COMPUTE_EYEDEPTH(o.projPos.z);
-                return o;
-            }
-            float4 frag(VertexOutput i, float facing : VFACE) : COLOR {
-                float isFrontFace = ( facing >= 0 ? 1 : 0 );
-                float faceSign = ( facing >= 0 ? 1 : -1 );
-                i.normalDir = normalize(i.normalDir);
-                i.normalDir *= faceSign;
-                float3x3 tangentTransform = float3x3( i.tangentDir, i.bitangentDir, i.normalDir);
-                float3 viewDirection = normalize(_WorldSpaceCameraPos.xyz - i.posWorld.xyz);
-                float4 node_688 = _Time;
-                float2 node_8083 = (i.uv0+node_688.g*float2(0,0.1));
-                float4 _NormalMap_var = tex2D(_NormalMap,TRANSFORM_TEX(node_8083, _NormalMap));
-                float3 normalLocal = _NormalMap_var.rgb;
-                float3 normalDirection = normalize(mul( normalLocal, tangentTransform )); // Perturbed normals
-                float3 viewReflectDirection = reflect( -viewDirection, normalDirection );
-                float2 node_6747 = (i.uv0+node_688.g*float2(0,0.2));
-                float4 _Nosie_var = tex2D(_Nosie,TRANSFORM_TEX(node_6747, _Nosie));
-                float4 _AlphaShape_var = tex2D(_AlphaShape,TRANSFORM_TEX(i.uv0, _AlphaShape));
-                float node_9059 = ((_Transparency*-1.0+1.0)*_AlphaShape_var.r);
-                float2 sceneUVs = (i.projPos.xy / i.projPos.w) + (mul( UNITY_MATRIX_V, float4((normalDirection*float3((_Nosie_var.rgb.rr*_NoiseIntensity),0.0)),0) ).xyz.rgb.rg*((-0.1)*_RefectionScale)*node_9059);
-                float4 sceneColor = tex2D(_GrabTexture, sceneUVs);
-                float3 lightDirection = normalize(_WorldSpaceLightPos0.xyz);
-                float3 lightColor = _LightColor0.rgb;
-////// Lighting:
-////// Emissive:
-                float4 _EmissionTexture_var = tex2D(_EmissionTexture,TRANSFORM_TEX(node_8083, _EmissionTexture));
-                float3 emissive = (_EmissionTexture_var.rgb*_EmissionColor.rgb);
-                float node_8791 = 0.5;
-                float node_8240 = ((max(0,dot(lightDirection,normalDirection))+node_8791)*node_8791);
-                float4 _AlbedoTexture_var = tex2D(_AlbedoTexture,TRANSFORM_TEX(node_8083, _AlbedoTexture));
-                float3 node_556 = (_Color.rgb*(node_8240*node_8240)*_AlbedoTexture_var.rgb);
-                float3 finalColor = emissive + (((_SpecIntensity*pow(max(0,dot(viewReflectDirection,lightDirection)),exp2(((_SpecPower*-1.0+1.0)*8.0))))+node_556+(node_556*(pow(1.0-max(0,dot(normalDirection, viewDirection)),(_FallOffAmount*5.0))*(_FallOffIntensity*20.0))*_FallOffColor.rgb))*_LightColor0.rgb);
-                return fixed4(lerp(sceneColor.rgb, finalColor,node_9059),1);
-            }
-            ENDCG
-        }
-        Pass {
-            Name "FORWARD_DELTA"
-            Tags {
-                "LightMode"="ForwardAdd"
-            }
-            Blend One One
-            Cull Off
-            ZWrite Off
-            
-            CGPROGRAM
-            #pragma vertex vert
-            #pragma fragment frag
-            #define UNITY_PASS_FORWARDADD
-            #include "UnityCG.cginc"
-            #include "AutoLight.cginc"
-            #pragma multi_compile_fwdadd
-            #pragma only_renderers d3d9 d3d11 glcore gles 
-            #pragma target 3.0
-            uniform float4 _LightColor0;
-            uniform sampler2D _GrabTexture;
-            uniform float4 _Color;
-            uniform float _Transparency;
-            uniform float _SpecPower;
-            uniform float _SpecIntensity;
-            uniform sampler2D _NormalMap; uniform float4 _NormalMap_ST;
-            uniform float _RefectionScale;
-            uniform float _FallOffAmount;
-            uniform float _FallOffIntensity;
-            uniform float4 _FallOffColor;
-            uniform sampler2D _EmissionTexture; uniform float4 _EmissionTexture_ST;
-            uniform sampler2D _Nosie; uniform float4 _Nosie_ST;
-            uniform float _NoiseIntensity;
-            uniform sampler2D _AlbedoTexture; uniform float4 _AlbedoTexture_ST;
-            uniform sampler2D _AlphaShape; uniform float4 _AlphaShape_ST;
-            uniform float4 _EmissionColor;
-            struct VertexInput {
-                float4 vertex : POSITION;
-                float3 normal : NORMAL;
-                float4 tangent : TANGENT;
-                float2 texcoord0 : TEXCOORD0;
-            };
-            struct VertexOutput {
-                float4 pos : SV_POSITION;
-                float2 uv0 : TEXCOORD0;
-                float4 posWorld : TEXCOORD1;
-                float3 normalDir : TEXCOORD2;
-                float3 tangentDir : TEXCOORD3;
-                float3 bitangentDir : TEXCOORD4;
-                float4 projPos : TEXCOORD5;
-                LIGHTING_COORDS(6,7)
-            };
-            VertexOutput vert (VertexInput v) {
-                VertexOutput o = (VertexOutput)0;
-                o.uv0 = v.texcoord0;
-                o.normalDir = UnityObjectToWorldNormal(v.normal);
-                o.tangentDir = normalize( mul( unity_ObjectToWorld, float4( v.tangent.xyz, 0.0 ) ).xyz );
-                o.bitangentDir = normalize(cross(o.normalDir, o.tangentDir) * v.tangent.w);
-                o.posWorld = mul(unity_ObjectToWorld, v.vertex);
-                float3 lightColor = _LightColor0.rgb;
-                o.pos = UnityObjectToClipPos( v.vertex );
-                o.projPos = ComputeScreenPos (o.pos);
-                COMPUTE_EYEDEPTH(o.projPos.z);
-                TRANSFER_VERTEX_TO_FRAGMENT(o)
-                return o;
-            }
-            float4 frag(VertexOutput i, float facing : VFACE) : COLOR {
-                float isFrontFace = ( facing >= 0 ? 1 : 0 );
-                float faceSign = ( facing >= 0 ? 1 : -1 );
-                i.normalDir = normalize(i.normalDir);
-                i.normalDir *= faceSign;
-                float3x3 tangentTransform = float3x3( i.tangentDir, i.bitangentDir, i.normalDir);
-                float3 viewDirection = normalize(_WorldSpaceCameraPos.xyz - i.posWorld.xyz);
-                float4 node_9683 = _Time;
-                float2 node_8083 = (i.uv0+node_9683.g*float2(0,0.1));
-                float4 _NormalMap_var = tex2D(_NormalMap,TRANSFORM_TEX(node_8083, _NormalMap));
-                float3 normalLocal = _NormalMap_var.rgb;
-                float3 normalDirection = normalize(mul( normalLocal, tangentTransform )); // Perturbed normals
-                float3 viewReflectDirection = reflect( -viewDirection, normalDirection );
-                float2 node_6747 = (i.uv0+node_9683.g*float2(0,0.2));
-                float4 _Nosie_var = tex2D(_Nosie,TRANSFORM_TEX(node_6747, _Nosie));
-                float4 _AlphaShape_var = tex2D(_AlphaShape,TRANSFORM_TEX(i.uv0, _AlphaShape));
-                float node_9059 = ((_Transparency*-1.0+1.0)*_AlphaShape_var.r);
-                float2 sceneUVs = (i.projPos.xy / i.projPos.w) + (mul( UNITY_MATRIX_V, float4((normalDirection*float3((_Nosie_var.rgb.rr*_NoiseIntensity),0.0)),0) ).xyz.rgb.rg*((-0.1)*_RefectionScale)*node_9059);
-                float4 sceneColor = tex2D(_GrabTexture, sceneUVs);
-                float3 lightDirection = normalize(lerp(_WorldSpaceLightPos0.xyz, _WorldSpaceLightPos0.xyz - i.posWorld.xyz,_WorldSpaceLightPos0.w));
-                float3 lightColor = _LightColor0.rgb;
-////// Lighting:
-                float node_8791 = 0.5;
-                float node_8240 = ((max(0,dot(lightDirection,normalDirection))+node_8791)*node_8791);
-                float4 _AlbedoTexture_var = tex2D(_AlbedoTexture,TRANSFORM_TEX(node_8083, _AlbedoTexture));
-                float3 node_556 = (_Color.rgb*(node_8240*node_8240)*_AlbedoTexture_var.rgb);
-                float3 finalColor = (((_SpecIntensity*pow(max(0,dot(viewReflectDirection,lightDirection)),exp2(((_SpecPower*-1.0+1.0)*8.0))))+node_556+(node_556*(pow(1.0-max(0,dot(normalDirection, viewDirection)),(_FallOffAmount*5.0))*(_FallOffIntensity*20.0))*_FallOffColor.rgb))*_LightColor0.rgb);
-                return fixed4(finalColor * node_9059,0);
-            }
-            ENDCG
-        }
-        Pass {
-            Name "ShadowCaster"
-            Tags {
-                "LightMode"="ShadowCaster"
-            }
-            Offset 1, 1
-            Cull Off
-            
-            CGPROGRAM
-            #pragma vertex vert
-            #pragma fragment frag
-            #define UNITY_PASS_SHADOWCASTER
-            #include "UnityCG.cginc"
-            #include "Lighting.cginc"
-            #pragma fragmentoption ARB_precision_hint_fastest
-            #pragma multi_compile_shadowcaster
-            #pragma only_renderers d3d9 d3d11 glcore gles 
-            #pragma target 3.0
-            struct VertexInput {
-                float4 vertex : POSITION;
-            };
-            struct VertexOutput {
-                V2F_SHADOW_CASTER;
-            };
-            VertexOutput vert (VertexInput v) {
-                VertexOutput o = (VertexOutput)0;
-                o.pos = UnityObjectToClipPos( v.vertex );
-                TRANSFER_SHADOW_CASTER(o)
-                return o;
-            }
-            float4 frag(VertexOutput i, float facing : VFACE) : COLOR {
-                float isFrontFace = ( facing >= 0 ? 1 : 0 );
-                float faceSign = ( facing >= 0 ? 1 : -1 );
-                SHADOW_CASTER_FRAGMENT(i)
-            }
-            ENDCG
-        }
-    }
-    FallBack "Diffuse"
-    CustomEditor "ShaderForgeMaterialInspector"
+	SubShader
+	{
+		Tags{ "RenderType" = "Transparent"  "Queue" = "Transparent+0" "IgnoreProjector" = "True" "IsEmissive" = "true"  }
+		Cull Back
+		CGINCLUDE
+		#include "UnityPBSLighting.cginc"
+		#include "UnityShaderVariables.cginc"
+		#include "UnityCG.cginc"
+		#include "Lighting.cginc"
+		#pragma target 3.0
+		#ifdef UNITY_PASS_SHADOWCASTER
+			#undef INTERNAL_DATA
+			#undef WorldReflectionVector
+			#undef WorldNormalVector
+			#define INTERNAL_DATA half3 internalSurfaceTtoW0; half3 internalSurfaceTtoW1; half3 internalSurfaceTtoW2;
+			#define WorldReflectionVector(data,normal) reflect (data.worldRefl, half3(dot(data.internalSurfaceTtoW0,normal), dot(data.internalSurfaceTtoW1,normal), dot(data.internalSurfaceTtoW2,normal)))
+			#define WorldNormalVector(data,normal) half3(dot(data.internalSurfaceTtoW0,normal), dot(data.internalSurfaceTtoW1,normal), dot(data.internalSurfaceTtoW2,normal))
+		#endif
+		struct Input
+		{
+			float2 uv_texcoord;
+			float3 worldNormal;
+			INTERNAL_DATA
+			float3 worldPos;
+		};
+
+		struct SurfaceOutputCustomLightingCustom
+		{
+			half3 Albedo;
+			half3 Normal;
+			half3 Emission;
+			half Metallic;
+			half Smoothness;
+			half Occlusion;
+			half Alpha;
+			Input SurfInput;
+			UnityGIInput GIData;
+		};
+
+		uniform sampler2D _Emission;
+		uniform sampler2D _Alpha;
+		uniform float4 _Alpha_ST;
+		uniform float _SpacularIntensity;
+		uniform float _SpacularPower;
+		uniform float4 _Color;
+		uniform sampler2D _Albedo;
+		uniform float4 _FallOffColor;
+		uniform float _FallOffAmount;
+		uniform float _FallOffIntensity;
+		uniform sampler2D _Normal;
+
+		inline half4 LightingStandardCustomLighting( inout SurfaceOutputCustomLightingCustom s, half3 viewDir, UnityGI gi )
+		{
+			UnityGIInput data = s.GIData;
+			Input i = s.SurfInput;
+			half4 c = 0;
+			float2 uv_Alpha = i.uv_texcoord * _Alpha_ST.xy + _Alpha_ST.zw;
+			float4 Alpha92 = ( (1.0 + (0.0 - 0.0) * (0.0 - 1.0) / (1.0 - 0.0)) * tex2D( _Alpha, uv_Alpha ) );
+			SurfaceOutputStandard s78 = (SurfaceOutputStandard ) 0;
+			float3 ase_worldPos = i.worldPos;
+			float3 ase_worldViewDir = normalize( UnityWorldSpaceViewDir( ase_worldPos ) );
+			#if defined(LIGHTMAP_ON) && UNITY_VERSION < 560 //aseld
+			float3 ase_worldlightDir = 0;
+			#else //aseld
+			float3 ase_worldlightDir = normalize( UnityWorldSpaceLightDir( ase_worldPos ) );
+			#endif //aseld
+			float dotResult19 = dot( ase_worldViewDir , ase_worldlightDir );
+			float View_Light_Dir46 = dotResult19;
+			float Specular50 = ( _SpacularIntensity * pow( View_Light_Dir46 , exp( ( (1.0 + (_SpacularPower - 0.0) * (0.0 - 1.0) / (1.0 - 0.0)) * 8.0 ) ) ) );
+			float2 panner54 = ( 1.0 * _Time.y * float2( 0,0.1 ) + i.uv_texcoord);
+			float2 UV_Panning62 = panner54;
+			float3 ase_worldNormal = WorldNormalVector( i, float3( 0, 0, 1 ) );
+			float dotResult20 = dot( ase_worldlightDir , ase_worldNormal );
+			float temp_output_22_0 = ( ( dotResult20 + 0.5 ) * 0.5 );
+			float World_Driection25 = ( temp_output_22_0 * temp_output_22_0 );
+			float4 temp_output_29_0 = ( _Color * tex2D( _Albedo, UV_Panning62 ) * World_Driection25 );
+			float fresnelNdotV8 = dot( ase_worldNormal, ase_worldViewDir );
+			float fresnelNode8 = ( 0.0 + 1.0 * pow( 1.0 - fresnelNdotV8, ( _FallOffAmount * 5.0 ) ) );
+			float Fresnel15 = ( fresnelNode8 * ( _FallOffIntensity * 20.0 ) );
+			#if defined(LIGHTMAP_ON) && ( UNITY_VERSION < 560 || ( defined(LIGHTMAP_SHADOW_MIXING) && !defined(SHADOWS_SHADOWMASK) && defined(SHADOWS_SCREEN) ) )//aselc
+			float4 ase_lightColor = 0;
+			#else //aselc
+			float4 ase_lightColor = _LightColor0;
+			#endif //aselc
+			s78.Albedo = ( ( Specular50 + temp_output_29_0 + ( temp_output_29_0 * _FallOffColor * Fresnel15 ) ) * ase_lightColor ).rgb;
+			float3 Normal68 = UnpackNormal( tex2D( _Normal, UV_Panning62 ) );
+			s78.Normal = WorldNormalVector( i , Normal68 );
+			s78.Emission = float3( 0,0,0 );
+			s78.Metallic = 0.0;
+			s78.Smoothness = 0.0;
+			s78.Occlusion = 1.0;
+
+			data.light = gi.light;
+
+			UnityGI gi78 = gi;
+			#ifdef UNITY_PASS_FORWARDBASE
+			Unity_GlossyEnvironmentData g78 = UnityGlossyEnvironmentSetup( s78.Smoothness, data.worldViewDir, s78.Normal, float3(0,0,0));
+			gi78 = UnityGlobalIllumination( data, s78.Occlusion, s78.Normal, g78 );
+			#endif
+
+			float3 surfResult78 = LightingStandard ( s78, viewDir, gi78 ).rgb;
+			surfResult78 += s78.Emission;
+
+			#ifdef UNITY_PASS_FORWARDADD//78
+			surfResult78 -= s78.Emission;
+			#endif//78
+			float3 Albedo37 = surfResult78;
+			c.rgb = Albedo37;
+			c.a = Alpha92.r;
+			return c;
+		}
+
+		inline void LightingStandardCustomLighting_GI( inout SurfaceOutputCustomLightingCustom s, UnityGIInput data, inout UnityGI gi )
+		{
+			s.GIData = data;
+		}
+
+		void surf( Input i , inout SurfaceOutputCustomLightingCustom o )
+		{
+			o.SurfInput = i;
+			o.Normal = float3(0,0,1);
+			float2 panner54 = ( 1.0 * _Time.y * float2( 0,0.1 ) + i.uv_texcoord);
+			float4 color60 = IsGammaSpace() ? float4(0.5,0.5,0.5,0) : float4(0.2140411,0.2140411,0.2140411,0);
+			float4 Emission69 = ( float4( UnpackNormal( tex2D( _Emission, panner54 ) ) , 0.0 ) * color60 );
+			o.Emission = Emission69.rgb;
+		}
+
+		ENDCG
+		CGPROGRAM
+		#pragma surface surf StandardCustomLighting alpha:fade keepalpha fullforwardshadows 
+
+		ENDCG
+		Pass
+		{
+			Name "ShadowCaster"
+			Tags{ "LightMode" = "ShadowCaster" }
+			ZWrite On
+			CGPROGRAM
+			#pragma vertex vert
+			#pragma fragment frag
+			#pragma target 3.0
+			#pragma multi_compile_shadowcaster
+			#pragma multi_compile UNITY_PASS_SHADOWCASTER
+			#pragma skip_variants FOG_LINEAR FOG_EXP FOG_EXP2
+			#include "HLSLSupport.cginc"
+			#if ( SHADER_API_D3D11 || SHADER_API_GLCORE || SHADER_API_GLES || SHADER_API_GLES3 || SHADER_API_METAL || SHADER_API_VULKAN )
+				#define CAN_SKIP_VPOS
+			#endif
+			#include "UnityCG.cginc"
+			#include "Lighting.cginc"
+			#include "UnityPBSLighting.cginc"
+			sampler3D _DitherMaskLOD;
+			struct v2f
+			{
+				V2F_SHADOW_CASTER;
+				float2 customPack1 : TEXCOORD1;
+				float4 tSpace0 : TEXCOORD2;
+				float4 tSpace1 : TEXCOORD3;
+				float4 tSpace2 : TEXCOORD4;
+				UNITY_VERTEX_INPUT_INSTANCE_ID
+				UNITY_VERTEX_OUTPUT_STEREO
+			};
+			v2f vert( appdata_full v )
+			{
+				v2f o;
+				UNITY_SETUP_INSTANCE_ID( v );
+				UNITY_INITIALIZE_OUTPUT( v2f, o );
+				UNITY_INITIALIZE_VERTEX_OUTPUT_STEREO( o );
+				UNITY_TRANSFER_INSTANCE_ID( v, o );
+				Input customInputData;
+				float3 worldPos = mul( unity_ObjectToWorld, v.vertex ).xyz;
+				half3 worldNormal = UnityObjectToWorldNormal( v.normal );
+				half3 worldTangent = UnityObjectToWorldDir( v.tangent.xyz );
+				half tangentSign = v.tangent.w * unity_WorldTransformParams.w;
+				half3 worldBinormal = cross( worldNormal, worldTangent ) * tangentSign;
+				o.tSpace0 = float4( worldTangent.x, worldBinormal.x, worldNormal.x, worldPos.x );
+				o.tSpace1 = float4( worldTangent.y, worldBinormal.y, worldNormal.y, worldPos.y );
+				o.tSpace2 = float4( worldTangent.z, worldBinormal.z, worldNormal.z, worldPos.z );
+				o.customPack1.xy = customInputData.uv_texcoord;
+				o.customPack1.xy = v.texcoord;
+				TRANSFER_SHADOW_CASTER_NORMALOFFSET( o )
+				return o;
+			}
+			half4 frag( v2f IN
+			#if !defined( CAN_SKIP_VPOS )
+			, UNITY_VPOS_TYPE vpos : VPOS
+			#endif
+			) : SV_Target
+			{
+				UNITY_SETUP_INSTANCE_ID( IN );
+				Input surfIN;
+				UNITY_INITIALIZE_OUTPUT( Input, surfIN );
+				surfIN.uv_texcoord = IN.customPack1.xy;
+				float3 worldPos = float3( IN.tSpace0.w, IN.tSpace1.w, IN.tSpace2.w );
+				half3 worldViewDir = normalize( UnityWorldSpaceViewDir( worldPos ) );
+				surfIN.worldPos = worldPos;
+				surfIN.worldNormal = float3( IN.tSpace0.z, IN.tSpace1.z, IN.tSpace2.z );
+				surfIN.internalSurfaceTtoW0 = IN.tSpace0.xyz;
+				surfIN.internalSurfaceTtoW1 = IN.tSpace1.xyz;
+				surfIN.internalSurfaceTtoW2 = IN.tSpace2.xyz;
+				SurfaceOutputCustomLightingCustom o;
+				UNITY_INITIALIZE_OUTPUT( SurfaceOutputCustomLightingCustom, o )
+				surf( surfIN, o );
+				UnityGI gi;
+				UNITY_INITIALIZE_OUTPUT( UnityGI, gi );
+				o.Alpha = LightingStandardCustomLighting( o, worldViewDir, gi ).a;
+				#if defined( CAN_SKIP_VPOS )
+				float2 vpos = IN.pos;
+				#endif
+				half alphaRef = tex3D( _DitherMaskLOD, float3( vpos.xy * 0.25, o.Alpha * 0.9375 ) ).a;
+				clip( alphaRef - 0.01 );
+				SHADOW_CASTER_FRAGMENT( IN )
+			}
+			ENDCG
+		}
+	}
+	Fallback "Diffuse"
+	CustomEditor "ASEMaterialInspector"
 }
+/*ASEBEGIN
+Version=17500
+7;1087;1906;1014;2159.427;1500.995;2.864074;True;False
+Node;AmplifyShaderEditor.CommentaryNode;26;-4000.507,-1138.351;Inherit;False;1697.385;619.596;Comment;11;17;18;19;13;20;21;22;23;24;25;46;World_Driection;1,1,1,1;0;0
+Node;AmplifyShaderEditor.WorldNormalVector;13;-3937.766,-697.7546;Inherit;False;False;1;0;FLOAT3;0,0,1;False;4;FLOAT3;0;FLOAT;1;FLOAT;2;FLOAT;3
+Node;AmplifyShaderEditor.CommentaryNode;51;-4110.413,-1994.628;Inherit;False;1519.951;626.6379;Comment;10;42;44;45;48;50;41;40;43;49;47;Specular;1,1,1,1;0;0
+Node;AmplifyShaderEditor.WorldSpaceLightDirHlpNode;18;-3950.507,-894.9022;Inherit;False;False;1;0;FLOAT;0;False;4;FLOAT3;0;FLOAT;1;FLOAT;2;FLOAT;3
+Node;AmplifyShaderEditor.ViewDirInputsCoordNode;17;-3917.405,-1088.351;Inherit;False;World;False;0;4;FLOAT3;0;FLOAT;1;FLOAT;2;FLOAT;3
+Node;AmplifyShaderEditor.RangedFloatNode;23;-3493.104,-634.6819;Inherit;False;Constant;_Float2;Float 2;2;0;Create;True;0;0;False;0;0.5;0;0;0;0;1;FLOAT;0
+Node;AmplifyShaderEditor.CommentaryNode;71;-1757.199,-1787.031;Inherit;False;1094.802;607.7167;Comment;4;54;62;55;53;UV_Panning;1,1,1,1;0;0
+Node;AmplifyShaderEditor.DotProductOpNode;20;-3522.841,-825.8676;Inherit;False;2;0;FLOAT3;0,0,0;False;1;FLOAT3;0,0,0;False;1;FLOAT;0
+Node;AmplifyShaderEditor.RangedFloatNode;40;-4060.413,-1604.315;Inherit;False;Property;_SpacularPower;Spacular Power;6;0;Create;True;0;0;False;0;0.5;0.5;0;1;0;1;FLOAT;0
+Node;AmplifyShaderEditor.CommentaryNode;16;-3795.682,-124.5384;Inherit;False;1557.749;726.5515;Comment;9;10;5;7;6;9;11;8;12;15;Fresnel;1,1,1,1;0;0
+Node;AmplifyShaderEditor.RangedFloatNode;6;-3641.505,263.4879;Inherit;False;Constant;_Float0;Float 0;1;0;Create;True;0;0;False;0;5;0;0;0;0;1;FLOAT;0
+Node;AmplifyShaderEditor.TextureCoordinatesNode;53;-1707.199,-1577.218;Inherit;True;0;-1;2;3;2;SAMPLER2D;;False;0;FLOAT2;1,1;False;1;FLOAT2;0,0;False;5;FLOAT2;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
+Node;AmplifyShaderEditor.SimpleAddOpNode;21;-3284.061,-820.2088;Inherit;False;2;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0
+Node;AmplifyShaderEditor.RangedFloatNode;5;-3745.682,132.8015;Inherit;False;Property;_FallOffAmount;Fall Off Amount;1;0;Create;True;0;0;False;0;0.5;0.5;0;1;0;1;FLOAT;0
+Node;AmplifyShaderEditor.RangedFloatNode;43;-3695.38,-1482.99;Inherit;False;Constant;_Float3;Float 3;6;0;Create;True;0;0;False;0;8;0;0;0;0;1;FLOAT;0
+Node;AmplifyShaderEditor.TFHCRemapNode;41;-3723.899,-1722.452;Inherit;False;5;0;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT;1;False;3;FLOAT;1;False;4;FLOAT;0;False;1;FLOAT;0
+Node;AmplifyShaderEditor.DotProductOpNode;19;-3556.605,-1021.002;Inherit;False;2;0;FLOAT3;0,0,0;False;1;FLOAT3;0,0,0;False;1;FLOAT;0
+Node;AmplifyShaderEditor.PannerNode;54;-1251.521,-1737.031;Inherit;True;3;0;FLOAT2;0,0;False;2;FLOAT2;0,0.1;False;1;FLOAT;1;False;1;FLOAT2;0
+Node;AmplifyShaderEditor.SimpleMultiplyOpNode;22;-3061.929,-818.7454;Inherit;False;2;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0
+Node;AmplifyShaderEditor.SimpleMultiplyOpNode;42;-3466.808,-1632.66;Inherit;False;2;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0
+Node;AmplifyShaderEditor.RangedFloatNode;9;-3404.254,371.2813;Inherit;False;Property;_FallOffIntensity;Fall Off Intensity;0;0;Create;True;0;0;False;0;0.5;0.5;0;1;0;1;FLOAT;0
+Node;AmplifyShaderEditor.RegisterLocalVarNode;46;-3338.106,-1000.292;Inherit;False;View_Light_Dir;-1;True;1;0;FLOAT;0;False;1;FLOAT;0
+Node;AmplifyShaderEditor.SimpleMultiplyOpNode;7;-3405.03,161.8354;Inherit;False;2;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0
+Node;AmplifyShaderEditor.RangedFloatNode;11;-3390.249,487.0134;Inherit;False;Constant;_Float1;Float 1;1;0;Create;True;0;0;False;0;20;0;0;0;0;1;FLOAT;0
+Node;AmplifyShaderEditor.RegisterLocalVarNode;62;-905.3958,-1596.779;Inherit;False;UV_Panning;-1;True;1;0;FLOAT2;0,0;False;1;FLOAT2;0
+Node;AmplifyShaderEditor.GetLocalVarNode;47;-3479.063,-1790.038;Inherit;False;46;View_Light_Dir;1;0;OBJECT;;False;1;FLOAT;0
+Node;AmplifyShaderEditor.SimpleMultiplyOpNode;10;-3050.794,359.7052;Inherit;False;2;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0
+Node;AmplifyShaderEditor.SimpleMultiplyOpNode;24;-2849.211,-811.0338;Inherit;True;2;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0
+Node;AmplifyShaderEditor.FresnelNode;8;-3202.141,-74.53836;Inherit;True;Standard;WorldNormal;ViewDir;False;5;0;FLOAT3;0,0,1;False;4;FLOAT3;0,0,0;False;1;FLOAT;0;False;2;FLOAT;1;False;3;FLOAT;5;False;1;FLOAT;0
+Node;AmplifyShaderEditor.ExpOpNode;44;-3262.69,-1643.747;Inherit;False;1;0;FLOAT;0;False;1;FLOAT;0
+Node;AmplifyShaderEditor.CommentaryNode;38;-1902.105,-662.1414;Inherit;False;1547.253;709;Comment;15;28;30;27;31;29;33;32;34;35;36;37;52;63;76;78;Albedo;1,1,1,1;0;0
+Node;AmplifyShaderEditor.PowerNode;45;-3156.287,-1826.607;Inherit;False;2;0;FLOAT;0;False;1;FLOAT;1;False;1;FLOAT;0
+Node;AmplifyShaderEditor.RegisterLocalVarNode;25;-2561.126,-763.3128;Inherit;False;World_Driection;-1;True;1;0;FLOAT;0;False;1;FLOAT;0
+Node;AmplifyShaderEditor.SimpleMultiplyOpNode;12;-2794.437,123.809;Inherit;True;2;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0
+Node;AmplifyShaderEditor.RangedFloatNode;49;-3714.023,-1944.628;Inherit;False;Property;_SpacularIntensity;Spacular Intensity;5;0;Create;True;0;0;False;0;0.5;0.5;0;1;0;1;FLOAT;0
+Node;AmplifyShaderEditor.GetLocalVarNode;63;-1723.662,-132.4103;Inherit;False;62;UV_Panning;1;0;OBJECT;;False;1;FLOAT2;0
+Node;AmplifyShaderEditor.SimpleMultiplyOpNode;48;-2969.778,-1931.198;Inherit;False;2;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0
+Node;AmplifyShaderEditor.ColorNode;27;-1814.105,-612.1414;Inherit;False;Property;_Color;Color;3;0;Create;True;0;0;False;0;0,0,0,0;0.5,0.5,0.5,1;True;0;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
+Node;AmplifyShaderEditor.RegisterLocalVarNode;15;-2480.933,138.4132;Inherit;True;Fresnel;-1;True;1;0;FLOAT;0;False;1;FLOAT;0
+Node;AmplifyShaderEditor.SamplerNode;28;-1736.105,-410.1414;Inherit;True;Property;_Albedo;Albedo;4;0;Create;True;0;0;False;0;-1;None;c1970fdd536af7642a62d44721e49718;True;0;False;white;Auto;False;Object;-1;Auto;Texture2D;6;0;SAMPLER2D;;False;1;FLOAT2;0,0;False;2;FLOAT;0;False;3;FLOAT2;0,0;False;4;FLOAT2;0,0;False;5;FLOAT;1;False;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
+Node;AmplifyShaderEditor.GetLocalVarNode;30;-1404.105,-311.1414;Inherit;False;25;World_Driection;1;0;OBJECT;;False;1;FLOAT;0
+Node;AmplifyShaderEditor.CommentaryNode;72;-343.1066,-2377.85;Inherit;False;956.1412;280;Comment;3;66;67;68;Normal;1,1,1,1;0;0
+Node;AmplifyShaderEditor.RegisterLocalVarNode;50;-2833.462,-1768.141;Inherit;False;Specular;-1;True;1;0;FLOAT;0;False;1;FLOAT;0
+Node;AmplifyShaderEditor.SimpleMultiplyOpNode;29;-1450.106,-571.1414;Inherit;False;3;3;0;COLOR;0,0,0,0;False;1;COLOR;0,0,0,0;False;2;FLOAT;0;False;1;COLOR;0
+Node;AmplifyShaderEditor.GetLocalVarNode;33;-1041.106,-141.1414;Inherit;False;15;Fresnel;1;0;OBJECT;;False;1;FLOAT;0
+Node;AmplifyShaderEditor.ColorNode;31;-1308.106,-143.1414;Inherit;False;Property;_FallOffColor;Fall Off Color;2;0;Create;True;0;0;False;0;0,0,0,0;0.5,0.5,0.5,1;True;0;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
+Node;AmplifyShaderEditor.GetLocalVarNode;67;-293.1066,-2305.315;Inherit;False;62;UV_Panning;1;0;OBJECT;;False;1;FLOAT2;0
+Node;AmplifyShaderEditor.CommentaryNode;93;-1407.924,100.3752;Inherit;False;1128.25;457.2972;Comment;5;89;90;88;91;92;Alpha;1,1,1,1;0;0
+Node;AmplifyShaderEditor.SimpleMultiplyOpNode;32;-1031.105,-320.1414;Inherit;False;3;3;0;COLOR;0,0,0,0;False;1;COLOR;0,0,0,0;False;2;FLOAT;0;False;1;COLOR;0
+Node;AmplifyShaderEditor.GetLocalVarNode;52;-1152.998,-600.0869;Inherit;False;50;Specular;1;0;OBJECT;;False;1;FLOAT;0
+Node;AmplifyShaderEditor.SamplerNode;66;-9.135498,-2327.85;Inherit;True;Property;_Normal;Normal;10;0;Create;True;0;0;False;0;-1;None;c7e9ae087ac710a4980ed418c192e2fb;True;0;True;bump;Auto;True;Object;-1;Auto;Texture2D;6;0;SAMPLER2D;;False;1;FLOAT2;0,0;False;2;FLOAT;0;False;3;FLOAT2;0,0;False;4;FLOAT2;0,0;False;5;FLOAT;1;False;5;FLOAT3;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
+Node;AmplifyShaderEditor.SimpleAddOpNode;34;-1008.281,-483.4959;Inherit;False;3;3;0;FLOAT;0;False;1;COLOR;0,0,0,0;False;2;COLOR;0,0,0,0;False;1;COLOR;0
+Node;AmplifyShaderEditor.RangedFloatNode;88;-1357.924,176.0777;Inherit;False;Constant;_Transparency;Transparency;12;0;Create;True;0;0;False;0;0;0;0;0;0;1;FLOAT;0
+Node;AmplifyShaderEditor.CommentaryNode;73;-417.7659,-1988.255;Inherit;False;1054.395;520.2603;Comment;4;59;60;61;69;Emission;1,1,1,1;0;0
+Node;AmplifyShaderEditor.LightColorNode;36;-847.1036,-340.1414;Inherit;False;0;3;COLOR;0;FLOAT3;1;FLOAT;2
+Node;AmplifyShaderEditor.RegisterLocalVarNode;68;370.0345,-2310.407;Inherit;False;Normal;-1;True;1;0;FLOAT3;0,0,0;False;1;FLOAT3;0
+Node;AmplifyShaderEditor.ColorNode;60;-331.4643,-1674.995;Inherit;False;Constant;_EmissionColor;Emission Color;9;0;Create;True;0;0;False;0;0.5,0.5,0.5,0;0,0,0,0;True;0;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
+Node;AmplifyShaderEditor.SamplerNode;59;-367.7659,-1938.255;Inherit;True;Property;_Emission;Emission;8;0;Create;True;0;0;False;0;-1;None;0ec79c3d1dd0fb640b7f3f72ebb28f74;True;0;True;bump;Auto;True;Object;-1;Auto;Texture2D;6;0;SAMPLER2D;;False;1;FLOAT2;0,0;False;2;FLOAT;0;False;3;FLOAT2;0,0;False;4;FLOAT2;0,0;False;5;FLOAT;1;False;5;FLOAT3;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
+Node;AmplifyShaderEditor.SimpleMultiplyOpNode;35;-817.1031,-501.1414;Inherit;False;2;2;0;COLOR;0,0,0,0;False;1;COLOR;0,0,0,0;False;1;COLOR;0
+Node;AmplifyShaderEditor.SamplerNode;91;-1101.059,327.6722;Inherit;True;Property;_Alpha;Alpha;11;0;Create;True;0;0;False;0;-1;None;None;True;0;False;white;Auto;False;Object;-1;Auto;Texture2D;6;0;SAMPLER2D;;False;1;FLOAT2;0,0;False;2;FLOAT;0;False;3;FLOAT2;0,0;False;4;FLOAT2;0,0;False;5;FLOAT;1;False;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
+Node;AmplifyShaderEditor.TFHCRemapNode;89;-1056.726,150.3754;Inherit;False;5;0;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT;1;False;3;FLOAT;1;False;4;FLOAT;0;False;1;FLOAT;0
+Node;AmplifyShaderEditor.GetLocalVarNode;76;-868.5277,-67.26929;Inherit;False;68;Normal;1;0;OBJECT;;False;1;FLOAT3;0
+Node;AmplifyShaderEditor.SimpleMultiplyOpNode;61;135.2205,-1740.574;Inherit;False;2;2;0;FLOAT3;0,0,0;False;1;COLOR;0,0,0,0;False;1;COLOR;0
+Node;AmplifyShaderEditor.SimpleMultiplyOpNode;90;-723.5436,161.6428;Inherit;False;2;2;0;FLOAT;0;False;1;COLOR;0,0,0,0;False;1;COLOR;0
+Node;AmplifyShaderEditor.CustomStandardSurface;78;-635.7682,-315.8981;Inherit;False;Metallic;Tangent;6;0;FLOAT3;0,0,0;False;1;FLOAT3;0,0,1;False;2;FLOAT3;0,0,0;False;3;FLOAT;0;False;4;FLOAT;0;False;5;FLOAT;1;False;1;FLOAT3;0
+Node;AmplifyShaderEditor.RegisterLocalVarNode;69;393.6286,-1739.81;Inherit;False;Emission;-1;True;1;0;COLOR;0,0,0,0;False;1;COLOR;0
+Node;AmplifyShaderEditor.CommentaryNode;74;-467.9069,-1280.007;Inherit;False;1216.616;312.7119;Comment;5;58;65;70;64;56;Noise;1,1,1,1;0;0
+Node;AmplifyShaderEditor.RegisterLocalVarNode;37;-570.8492,-477.8177;Inherit;False;Albedo;-1;True;1;0;FLOAT3;0,0,0;False;1;FLOAT3;0
+Node;AmplifyShaderEditor.RegisterLocalVarNode;92;-522.675,251.1954;Inherit;False;Alpha;-1;True;1;0;COLOR;0,0,0,0;False;1;COLOR;0
+Node;AmplifyShaderEditor.RegisterLocalVarNode;70;505.7096,-1190.356;Inherit;False;Noise;-1;True;1;0;FLOAT2;0,0;False;1;FLOAT2;0
+Node;AmplifyShaderEditor.SimpleMultiplyOpNode;64;283.1981,-1217.677;Inherit;False;2;2;0;FLOAT2;0,0;False;1;FLOAT;0;False;1;FLOAT2;0
+Node;AmplifyShaderEditor.SamplerNode;56;-417.907,-1197.864;Inherit;True;Property;_Noise;Noise;7;0;Create;True;0;0;False;0;-1;None;None;True;0;False;white;Auto;False;Object;-1;Auto;Texture2D;6;0;SAMPLER2D;;False;1;FLOAT2;0,0;False;2;FLOAT;0;False;3;FLOAT2;0,0;False;4;FLOAT2;0,0;False;5;FLOAT;1;False;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
+Node;AmplifyShaderEditor.GetLocalVarNode;75;214.4723,-416.2693;Inherit;False;69;Emission;1;0;OBJECT;;False;1;COLOR;0
+Node;AmplifyShaderEditor.PannerNode;55;-1230.579,-1432.314;Inherit;True;3;0;FLOAT2;0,0;False;2;FLOAT2;0,0.2;False;1;FLOAT;1;False;1;FLOAT2;0
+Node;AmplifyShaderEditor.GetLocalVarNode;39;219.0801,-116.595;Inherit;False;37;Albedo;1;0;OBJECT;;False;1;FLOAT3;0
+Node;AmplifyShaderEditor.GetLocalVarNode;98;240.4535,-258.7826;Inherit;False;92;Alpha;1;0;OBJECT;;False;1;COLOR;0
+Node;AmplifyShaderEditor.DynamicAppendNode;58;-51.11985,-1230.007;Inherit;False;FLOAT2;4;0;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT;0;False;3;FLOAT;0;False;1;FLOAT2;0
+Node;AmplifyShaderEditor.RangedFloatNode;65;-86.06931,-1082.295;Inherit;False;Property;_NoiseIntensity;Noise Intensity;9;0;Create;True;0;0;False;0;0;0.5;0;10;0;1;FLOAT;0
+Node;AmplifyShaderEditor.StandardSurfaceOutputNode;100;575.8396,-452.1541;Float;False;True;-1;2;ASEMaterialInspector;0;0;CustomLighting;CVR_VFX_Shaders/CVR_VFX_FloatingGlass;False;False;False;False;False;False;False;False;False;False;False;False;False;False;True;False;False;False;False;False;False;Back;0;False;-1;0;False;-1;False;0;False;-1;0;False;-1;False;0;Transparent;0.5;True;True;0;False;Transparent;;Transparent;All;14;all;True;True;True;True;0;False;-1;False;0;False;-1;255;False;-1;255;False;-1;0;False;-1;0;False;-1;0;False;-1;0;False;-1;0;False;-1;0;False;-1;0;False;-1;0;False;-1;False;2;15;10;25;False;0.5;True;2;5;False;-1;10;False;-1;0;0;False;-1;0;False;-1;0;False;-1;0;False;-1;0;False;0;0,0,0,0;VertexOffset;True;False;Cylindrical;False;Relative;0;;-1;-1;-1;-1;0;False;0;0;False;-1;-1;0;False;-1;0;0;0;False;0.1;False;-1;0;False;-1;15;0;FLOAT3;0,0,0;False;1;FLOAT3;0,0,0;False;2;FLOAT3;0,0,0;False;3;FLOAT3;0,0,0;False;4;FLOAT;0;False;6;FLOAT3;0,0,0;False;7;FLOAT3;0,0,0;False;8;FLOAT;0;False;9;FLOAT;0;False;10;FLOAT;0;False;13;FLOAT3;0,0,0;False;11;FLOAT3;0,0,0;False;12;FLOAT3;0,0,0;False;14;FLOAT4;0,0,0,0;False;15;FLOAT3;0,0,0;False;0
+WireConnection;20;0;18;0
+WireConnection;20;1;13;0
+WireConnection;21;0;20;0
+WireConnection;21;1;23;0
+WireConnection;41;0;40;0
+WireConnection;19;0;17;0
+WireConnection;19;1;18;0
+WireConnection;54;0;53;0
+WireConnection;22;0;21;0
+WireConnection;22;1;23;0
+WireConnection;42;0;41;0
+WireConnection;42;1;43;0
+WireConnection;46;0;19;0
+WireConnection;7;0;5;0
+WireConnection;7;1;6;0
+WireConnection;62;0;54;0
+WireConnection;10;0;9;0
+WireConnection;10;1;11;0
+WireConnection;24;0;22;0
+WireConnection;24;1;22;0
+WireConnection;8;0;13;0
+WireConnection;8;3;7;0
+WireConnection;44;0;42;0
+WireConnection;45;0;47;0
+WireConnection;45;1;44;0
+WireConnection;25;0;24;0
+WireConnection;12;0;8;0
+WireConnection;12;1;10;0
+WireConnection;48;0;49;0
+WireConnection;48;1;45;0
+WireConnection;15;0;12;0
+WireConnection;28;1;63;0
+WireConnection;50;0;48;0
+WireConnection;29;0;27;0
+WireConnection;29;1;28;0
+WireConnection;29;2;30;0
+WireConnection;32;0;29;0
+WireConnection;32;1;31;0
+WireConnection;32;2;33;0
+WireConnection;66;1;67;0
+WireConnection;34;0;52;0
+WireConnection;34;1;29;0
+WireConnection;34;2;32;0
+WireConnection;68;0;66;0
+WireConnection;59;1;54;0
+WireConnection;35;0;34;0
+WireConnection;35;1;36;0
+WireConnection;89;0;88;0
+WireConnection;61;0;59;0
+WireConnection;61;1;60;0
+WireConnection;90;0;89;0
+WireConnection;90;1;91;0
+WireConnection;78;0;35;0
+WireConnection;78;1;76;0
+WireConnection;69;0;61;0
+WireConnection;37;0;78;0
+WireConnection;92;0;90;0
+WireConnection;70;0;64;0
+WireConnection;64;0;58;0
+WireConnection;64;1;65;0
+WireConnection;56;1;55;0
+WireConnection;55;0;53;0
+WireConnection;58;0;56;1
+WireConnection;58;1;56;1
+WireConnection;100;2;75;0
+WireConnection;100;9;98;0
+WireConnection;100;13;39;0
+ASEEND*/
+//CHKSM=F0CD0DBECF6E912A0EF0AC9C466E56DE270D95D4

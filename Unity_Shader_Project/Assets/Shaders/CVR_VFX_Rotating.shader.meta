@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: a16d27e446eb5ec4b867e2ae66617fe2
+guid: 9aec52f689d4ff043869bba5e5b17859
 ShaderImporter:
   externalObjects: {}
   defaultTextures:
-  - _Alpha1: {fileID: 2800000, guid: 431b832724ed9a1449068b573036b180, type: 3}
-  - _Alpha2: {fileID: 2800000, guid: 7292eef4cf7686443822412034c6aca0, type: 3}
-  - _Alpha3: {fileID: 2800000, guid: dc5e9806e6db95443b4d4f1780ee5a6b, type: 3}
+  - _Alpha_1: {fileID: 2800000, guid: 431b832724ed9a1449068b573036b180, type: 3}
+  - _Alpha_2: {fileID: 2800000, guid: 7292eef4cf7686443822412034c6aca0, type: 3}
+  - _Alpha_3: {fileID: 2800000, guid: dc5e9806e6db95443b4d4f1780ee5a6b, type: 3}
   nonModifiableTextures: []
   userData: 
   assetBundleName: 

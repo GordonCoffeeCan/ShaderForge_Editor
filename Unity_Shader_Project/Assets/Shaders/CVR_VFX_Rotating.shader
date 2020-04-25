@@ -1,135 +1,178 @@
-// Shader created with Shader Forge v1.38 
-// Shader Forge (c) Neat Corporation / Joachim Holmer - http://www.acegikmo.com/shaderforge/
-// Note: Manually altering this data may prevent you from opening it in Shader Forge
-/*SF_DATA;ver:1.38;sub:START;pass:START;ps:flbk:,iptp:0,cusa:False,bamd:0,cgin:,lico:1,lgpr:1,limd:0,spmd:1,trmd:0,grmd:0,uamb:True,mssp:True,bkdf:False,hqlp:False,rprd:False,enco:False,rmgx:True,imps:True,rpth:0,vtps:0,hqsc:True,nrmq:1,nrsp:0,vomd:0,spxs:False,tesm:0,olmd:1,culm:2,bsrc:3,bdst:7,dpts:2,wrdp:False,dith:0,atcv:False,rfrpo:True,rfrpn:Refraction,coma:15,ufog:True,aust:True,igpj:True,qofs:0,qpre:3,rntp:2,fgom:False,fgoc:False,fgod:False,fgor:False,fgmd:0,fgcr:0.5,fgcg:0.5,fgcb:0.5,fgca:1,fgde:0.01,fgrn:0,fgrf:300,stcl:False,atwp:False,stva:128,stmr:255,stmw:255,stcp:6,stps:0,stfa:0,stfz:0,ofsf:0,ofsu:0,f2p0:False,fnsp:False,fnfb:False,fsmp:False;n:type:ShaderForge.SFN_Final,id:9361,x:33544,y:32572,varname:node_9361,prsc:2|custl-3631-OUT,alpha-9336-R;n:type:ShaderForge.SFN_TexCoord,id:8755,x:31773,y:32799,varname:node_8755,prsc:2,uv:0,uaff:False;n:type:ShaderForge.SFN_Rotator,id:6539,x:32074,y:32637,varname:node_6539,prsc:2|UVIN-8755-UVOUT,SPD-3103-OUT;n:type:ShaderForge.SFN_Tex2d,id:8099,x:32313,y:32637,ptovrint:False,ptlb:Alpha1,ptin:_Alpha1,varname:node_8099,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,tex:431b832724ed9a1449068b573036b180,ntxv:0,isnm:False|UVIN-6539-UVOUT;n:type:ShaderForge.SFN_ValueProperty,id:3103,x:31755,y:32982,ptovrint:False,ptlb:Speed,ptin:_Speed,varname:node_3103,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,v1:1;n:type:ShaderForge.SFN_Multiply,id:7357,x:32074,y:33015,varname:node_7357,prsc:2|A-3103-OUT,B-6166-OUT;n:type:ShaderForge.SFN_Vector1,id:6166,x:31912,y:33078,varname:node_6166,prsc:2,v1:-1;n:type:ShaderForge.SFN_Rotator,id:1356,x:32074,y:32835,varname:node_1356,prsc:2|UVIN-8755-UVOUT,SPD-7357-OUT;n:type:ShaderForge.SFN_Tex2d,id:5578,x:32313,y:32848,ptovrint:False,ptlb:Alpha2,ptin:_Alpha2,varname:node_5578,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,tex:7292eef4cf7686443822412034c6aca0,ntxv:0,isnm:False|UVIN-1356-UVOUT;n:type:ShaderForge.SFN_Add,id:2289,x:32764,y:32733,varname:node_2289,prsc:2|A-859-OUT,B-6872-OUT;n:type:ShaderForge.SFN_Blend,id:6872,x:32557,y:32902,varname:node_6872,prsc:2,blmd:10,clmp:True|SRC-62-OUT,DST-5578-RGB;n:type:ShaderForge.SFN_Time,id:7112,x:31700,y:33251,varname:node_7112,prsc:2;n:type:ShaderForge.SFN_Sin,id:62,x:31997,y:33220,varname:node_62,prsc:2|IN-9474-OUT;n:type:ShaderForge.SFN_Blend,id:859,x:32557,y:32693,varname:node_859,prsc:2,blmd:10,clmp:True|SRC-8099-RGB,DST-62-OUT;n:type:ShaderForge.SFN_Multiply,id:9474,x:31735,y:33092,varname:node_9474,prsc:2|A-3103-OUT,B-7112-T;n:type:ShaderForge.SFN_Tex2d,id:9609,x:32545,y:33266,ptovrint:False,ptlb:Alpha3,ptin:_Alpha3,varname:_Alpha3,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,tex:dc5e9806e6db95443b4d4f1780ee5a6b,ntxv:0,isnm:False;n:type:ShaderForge.SFN_Blend,id:1388,x:32953,y:32923,varname:node_1388,prsc:2,blmd:10,clmp:True|SRC-2289-OUT,DST-4003-OUT;n:type:ShaderForge.SFN_ComponentMask,id:9336,x:33160,y:32825,varname:node_9336,prsc:2,cc1:0,cc2:1,cc3:2,cc4:-1|IN-1388-OUT;n:type:ShaderForge.SFN_Blend,id:4003,x:32725,y:33124,varname:node_4003,prsc:2,blmd:10,clmp:True|SRC-62-OUT,DST-9609-RGB;n:type:ShaderForge.SFN_Color,id:1132,x:32545,y:33500,ptovrint:False,ptlb:Color1,ptin:_Color1,varname:node_1132,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,c1:1,c2:1,c3:1,c4:1;n:type:ShaderForge.SFN_Color,id:9967,x:32313,y:32409,ptovrint:False,ptlb:Color2,ptin:_Color2,varname:_Color2,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,c1:1,c2:1,c3:1,c4:1;n:type:ShaderForge.SFN_Color,id:5798,x:32313,y:32211,ptovrint:False,ptlb:Color3,ptin:_Color3,varname:_Color3,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,c1:1,c2:1,c3:1,c4:1;n:type:ShaderForge.SFN_Blend,id:2327,x:32779,y:33392,varname:node_2327,prsc:2,blmd:10,clmp:True|SRC-9609-RGB,DST-1132-RGB;n:type:ShaderForge.SFN_Blend,id:6511,x:32557,y:32465,varname:node_6511,prsc:2,blmd:10,clmp:True|SRC-8099-RGB,DST-9967-RGB;n:type:ShaderForge.SFN_Blend,id:7513,x:32557,y:32228,varname:node_7513,prsc:2,blmd:10,clmp:True|SRC-5578-RGB,DST-5798-RGB;n:type:ShaderForge.SFN_Blend,id:4239,x:32780,y:32353,varname:node_4239,prsc:2,blmd:10,clmp:True|SRC-7513-OUT,DST-6511-OUT;n:type:ShaderForge.SFN_Blend,id:6743,x:33091,y:32583,varname:node_6743,prsc:2,blmd:8,clmp:True|SRC-4239-OUT,DST-2327-OUT;n:type:ShaderForge.SFN_Multiply,id:3631,x:33314,y:32733,varname:node_3631,prsc:2|A-6743-OUT,B-9336-OUT;proporder:1132-9967-5798-8099-5578-9609-3103;pass:END;sub:END;*/
+// Made with Amplify Shader Editor
+// Available at the Unity Asset Store - http://u3d.as/y3X 
+Shader "CVR_VFX_Shaders/CVR_VFX_Rotating"
+{
+	Properties
+	{
+		_Color1("Color 1", Color) = (1,1,1,0)
+		_Color2("Color 2", Color) = (1,1,1,0)
+		_Color3("Color 3", Color) = (1,1,1,0)
+		_Alpha_1("Alpha_1", 2D) = "white" {}
+		_Alpha_2("Alpha_2", 2D) = "white" {}
+		_Alpha_3("Alpha_3", 2D) = "white" {}
+		_Speed("Speed", Float) = 2
+		[HideInInspector] _texcoord( "", 2D ) = "white" {}
+		[HideInInspector] __dirty( "", Int ) = 1
+	}
 
-Shader "CVR_VFX_Shaders/CVR_VFX_Rotating" {
-    Properties {
-        _Color1 ("Color1", Color) = (1,1,1,1)
-        _Color2 ("Color2", Color) = (1,1,1,1)
-        _Color3 ("Color3", Color) = (1,1,1,1)
-        _Alpha1 ("Alpha1", 2D) = "white" {}
-        _Alpha2 ("Alpha2", 2D) = "white" {}
-        _Alpha3 ("Alpha3", 2D) = "white" {}
-        _Speed ("Speed", Float ) = 1
-        [HideInInspector]_Cutoff ("Alpha cutoff", Range(0,1)) = 0.5
-    }
-    SubShader {
-        Tags {
-            "IgnoreProjector"="True"
-            "Queue"="Transparent"
-            "RenderType"="Transparent"
-        }
-        Pass {
-            Name "FORWARD"
-            Tags {
-                "LightMode"="ForwardBase"
-            }
-            Blend SrcAlpha OneMinusSrcAlpha
-            Cull Off
-            ZWrite Off
-            
-            CGPROGRAM
-            #pragma vertex vert
-            #pragma fragment frag
-            #define UNITY_PASS_FORWARDBASE
-            #include "UnityCG.cginc"
-            #pragma multi_compile_fwdbase
-            #pragma multi_compile_fog
-            #pragma only_renderers d3d9 d3d11 glcore gles 
-            #pragma target 3.0
-            uniform sampler2D _Alpha1; uniform float4 _Alpha1_ST;
-            uniform float _Speed;
-            uniform sampler2D _Alpha2; uniform float4 _Alpha2_ST;
-            uniform sampler2D _Alpha3; uniform float4 _Alpha3_ST;
-            uniform float4 _Color1;
-            uniform float4 _Color2;
-            uniform float4 _Color3;
-            struct VertexInput {
-                float4 vertex : POSITION;
-                float2 texcoord0 : TEXCOORD0;
-            };
-            struct VertexOutput {
-                float4 pos : SV_POSITION;
-                float2 uv0 : TEXCOORD0;
-                UNITY_FOG_COORDS(1)
-            };
-            VertexOutput vert (VertexInput v) {
-                VertexOutput o = (VertexOutput)0;
-                o.uv0 = v.texcoord0;
-                o.pos = UnityObjectToClipPos( v.vertex );
-                UNITY_TRANSFER_FOG(o,o.pos);
-                return o;
-            }
-            float4 frag(VertexOutput i, float facing : VFACE) : COLOR {
-                float isFrontFace = ( facing >= 0 ? 1 : 0 );
-                float faceSign = ( facing >= 0 ? 1 : -1 );
-////// Lighting:
-                float4 node_4862 = _Time;
-                float node_1356_ang = node_4862.g;
-                float node_1356_spd = (_Speed*(-1.0));
-                float node_1356_cos = cos(node_1356_spd*node_1356_ang);
-                float node_1356_sin = sin(node_1356_spd*node_1356_ang);
-                float2 node_1356_piv = float2(0.5,0.5);
-                float2 node_1356 = (mul(i.uv0-node_1356_piv,float2x2( node_1356_cos, -node_1356_sin, node_1356_sin, node_1356_cos))+node_1356_piv);
-                float4 _Alpha2_var = tex2D(_Alpha2,TRANSFORM_TEX(node_1356, _Alpha2));
-                float node_6539_ang = node_4862.g;
-                float node_6539_spd = _Speed;
-                float node_6539_cos = cos(node_6539_spd*node_6539_ang);
-                float node_6539_sin = sin(node_6539_spd*node_6539_ang);
-                float2 node_6539_piv = float2(0.5,0.5);
-                float2 node_6539 = (mul(i.uv0-node_6539_piv,float2x2( node_6539_cos, -node_6539_sin, node_6539_sin, node_6539_cos))+node_6539_piv);
-                float4 _Alpha1_var = tex2D(_Alpha1,TRANSFORM_TEX(node_6539, _Alpha1));
-                float4 _Alpha3_var = tex2D(_Alpha3,TRANSFORM_TEX(i.uv0, _Alpha3));
-                float4 node_7112 = _Time;
-                float node_62 = sin((_Speed*node_7112.g));
-                float3 node_9336 = saturate(( saturate(( _Alpha3_var.rgb > 0.5 ? (1.0-(1.0-2.0*(_Alpha3_var.rgb-0.5))*(1.0-node_62)) : (2.0*_Alpha3_var.rgb*node_62) )) > 0.5 ? (1.0-(1.0-2.0*(saturate(( _Alpha3_var.rgb > 0.5 ? (1.0-(1.0-2.0*(_Alpha3_var.rgb-0.5))*(1.0-node_62)) : (2.0*_Alpha3_var.rgb*node_62) ))-0.5))*(1.0-(saturate(( node_62 > 0.5 ? (1.0-(1.0-2.0*(node_62-0.5))*(1.0-_Alpha1_var.rgb)) : (2.0*node_62*_Alpha1_var.rgb) ))+saturate(( _Alpha2_var.rgb > 0.5 ? (1.0-(1.0-2.0*(_Alpha2_var.rgb-0.5))*(1.0-node_62)) : (2.0*_Alpha2_var.rgb*node_62) ))))) : (2.0*saturate(( _Alpha3_var.rgb > 0.5 ? (1.0-(1.0-2.0*(_Alpha3_var.rgb-0.5))*(1.0-node_62)) : (2.0*_Alpha3_var.rgb*node_62) ))*(saturate(( node_62 > 0.5 ? (1.0-(1.0-2.0*(node_62-0.5))*(1.0-_Alpha1_var.rgb)) : (2.0*node_62*_Alpha1_var.rgb) ))+saturate(( _Alpha2_var.rgb > 0.5 ? (1.0-(1.0-2.0*(_Alpha2_var.rgb-0.5))*(1.0-node_62)) : (2.0*_Alpha2_var.rgb*node_62) )))) )).rgb;
-                float3 finalColor = (saturate((saturate(( saturate(( _Color2.rgb > 0.5 ? (1.0-(1.0-2.0*(_Color2.rgb-0.5))*(1.0-_Alpha1_var.rgb)) : (2.0*_Color2.rgb*_Alpha1_var.rgb) )) > 0.5 ? (1.0-(1.0-2.0*(saturate(( _Color2.rgb > 0.5 ? (1.0-(1.0-2.0*(_Color2.rgb-0.5))*(1.0-_Alpha1_var.rgb)) : (2.0*_Color2.rgb*_Alpha1_var.rgb) ))-0.5))*(1.0-saturate(( _Color3.rgb > 0.5 ? (1.0-(1.0-2.0*(_Color3.rgb-0.5))*(1.0-_Alpha2_var.rgb)) : (2.0*_Color3.rgb*_Alpha2_var.rgb) )))) : (2.0*saturate(( _Color2.rgb > 0.5 ? (1.0-(1.0-2.0*(_Color2.rgb-0.5))*(1.0-_Alpha1_var.rgb)) : (2.0*_Color2.rgb*_Alpha1_var.rgb) ))*saturate(( _Color3.rgb > 0.5 ? (1.0-(1.0-2.0*(_Color3.rgb-0.5))*(1.0-_Alpha2_var.rgb)) : (2.0*_Color3.rgb*_Alpha2_var.rgb) ))) ))+saturate(( _Color1.rgb > 0.5 ? (1.0-(1.0-2.0*(_Color1.rgb-0.5))*(1.0-_Alpha3_var.rgb)) : (2.0*_Color1.rgb*_Alpha3_var.rgb) ))))*node_9336);
-                fixed4 finalRGBA = fixed4(finalColor,node_9336.r);
-                UNITY_APPLY_FOG(i.fogCoord, finalRGBA);
-                return finalRGBA;
-            }
-            ENDCG
-        }
-        Pass {
-            Name "ShadowCaster"
-            Tags {
-                "LightMode"="ShadowCaster"
-            }
-            Offset 1, 1
-            Cull Off
-            
-            CGPROGRAM
-            #pragma vertex vert
-            #pragma fragment frag
-            #define UNITY_PASS_SHADOWCASTER
-            #include "UnityCG.cginc"
-            #include "Lighting.cginc"
-            #pragma fragmentoption ARB_precision_hint_fastest
-            #pragma multi_compile_shadowcaster
-            #pragma multi_compile_fog
-            #pragma only_renderers d3d9 d3d11 glcore gles 
-            #pragma target 3.0
-            struct VertexInput {
-                float4 vertex : POSITION;
-            };
-            struct VertexOutput {
-                V2F_SHADOW_CASTER;
-            };
-            VertexOutput vert (VertexInput v) {
-                VertexOutput o = (VertexOutput)0;
-                o.pos = UnityObjectToClipPos( v.vertex );
-                TRANSFER_SHADOW_CASTER(o)
-                return o;
-            }
-            float4 frag(VertexOutput i, float facing : VFACE) : COLOR {
-                float isFrontFace = ( facing >= 0 ? 1 : 0 );
-                float faceSign = ( facing >= 0 ? 1 : -1 );
-                SHADOW_CASTER_FRAGMENT(i)
-            }
-            ENDCG
-        }
-    }
-    FallBack "Diffuse"
-    CustomEditor "ShaderForgeMaterialInspector"
+	SubShader
+	{
+		Tags{ "RenderType" = "Transparent"  "Queue" = "Transparent+0" "IgnoreProjector" = "True" }
+		Cull Back
+		CGPROGRAM
+		#include "UnityPBSLighting.cginc"
+		#include "UnityShaderVariables.cginc"
+		#pragma target 3.0
+		#pragma surface surf StandardCustomLighting alpha:fade keepalpha noshadow 
+		struct Input
+		{
+			float2 uv_texcoord;
+		};
+
+		struct SurfaceOutputCustomLightingCustom
+		{
+			half3 Albedo;
+			half3 Normal;
+			half3 Emission;
+			half Metallic;
+			half Smoothness;
+			half Occlusion;
+			half Alpha;
+			Input SurfInput;
+			UnityGIInput GIData;
+		};
+
+		uniform sampler2D _Alpha_1;
+		uniform float _Speed;
+		uniform sampler2D _Alpha_2;
+		uniform sampler2D _Alpha_3;
+		uniform float4 _Alpha_3_ST;
+		uniform float4 _Color3;
+		uniform float4 _Color2;
+		uniform float4 _Color1;
+
+		inline half4 LightingStandardCustomLighting( inout SurfaceOutputCustomLightingCustom s, half3 viewDir, UnityGI gi )
+		{
+			UnityGIInput data = s.GIData;
+			Input i = s.SurfInput;
+			half4 c = 0;
+			float cos34 = cos( 1.0 * _Time.y );
+			float sin34 = sin( 1.0 * _Time.y );
+			float2 rotator34 = mul( i.uv_texcoord - float2( 0.5,0.5 ) , float2x2( cos34 , -sin34 , sin34 , cos34 )) + float2( 0.5,0.5 );
+			float4 tex2DNode47 = tex2D( _Alpha_1, rotator34 );
+			float temp_output_39_0 = sin( ( _Speed * _Time.y ) );
+			float4 temp_cast_0 = (temp_output_39_0).xxxx;
+			float4 blendOpSrc56 = tex2DNode47;
+			float4 blendOpDest56 = temp_cast_0;
+			float4 temp_cast_1 = (temp_output_39_0).xxxx;
+			float cos35 = cos( -1.0 * _Time.y );
+			float sin35 = sin( -1.0 * _Time.y );
+			float2 rotator35 = mul( i.uv_texcoord - float2( 0.5,0.5 ) , float2x2( cos35 , -sin35 , sin35 , cos35 )) + float2( 0.5,0.5 );
+			float4 tex2DNode42 = tex2D( _Alpha_2, rotator35 );
+			float4 blendOpSrc57 = temp_cast_1;
+			float4 blendOpDest57 = tex2DNode42;
+			float4 temp_cast_2 = (temp_output_39_0).xxxx;
+			float2 uv_Alpha_3 = i.uv_texcoord * _Alpha_3_ST.xy + _Alpha_3_ST.zw;
+			float4 tex2DNode60 = tex2D( _Alpha_3, uv_Alpha_3 );
+			float4 blendOpSrc64 = temp_cast_2;
+			float4 blendOpDest64 = tex2DNode60;
+			float4 blendOpSrc65 = ( ( saturate( (( blendOpDest56 > 0.5 ) ? ( 1.0 - 2.0 * ( 1.0 - blendOpDest56 ) * ( 1.0 - blendOpSrc56 ) ) : ( 2.0 * blendOpDest56 * blendOpSrc56 ) ) )) + ( saturate( (( blendOpDest57 > 0.5 ) ? ( 1.0 - 2.0 * ( 1.0 - blendOpDest57 ) * ( 1.0 - blendOpSrc57 ) ) : ( 2.0 * blendOpDest57 * blendOpSrc57 ) ) )) );
+			float4 blendOpDest65 = ( saturate( (( blendOpDest64 > 0.5 ) ? ( 1.0 - 2.0 * ( 1.0 - blendOpDest64 ) * ( 1.0 - blendOpSrc64 ) ) : ( 2.0 * blendOpDest64 * blendOpSrc64 ) ) ));
+			float4 break72 = ( saturate( (( blendOpDest65 > 0.5 ) ? ( 1.0 - 2.0 * ( 1.0 - blendOpDest65 ) * ( 1.0 - blendOpSrc65 ) ) : ( 2.0 * blendOpDest65 * blendOpSrc65 ) ) ));
+			float4 blendOpSrc67 = _Color3;
+			float4 blendOpDest67 = tex2DNode42;
+			float4 blendOpSrc69 = tex2DNode47;
+			float4 blendOpDest69 = _Color2;
+			float4 blendOpSrc70 = ( saturate( (( blendOpDest67 > 0.5 ) ? ( 1.0 - 2.0 * ( 1.0 - blendOpDest67 ) * ( 1.0 - blendOpSrc67 ) ) : ( 2.0 * blendOpDest67 * blendOpSrc67 ) ) ));
+			float4 blendOpDest70 = ( saturate( (( blendOpDest69 > 0.5 ) ? ( 1.0 - 2.0 * ( 1.0 - blendOpDest69 ) * ( 1.0 - blendOpSrc69 ) ) : ( 2.0 * blendOpDest69 * blendOpSrc69 ) ) ));
+			float4 blendOpSrc61 = tex2DNode60;
+			float4 blendOpDest61 = _Color1;
+			float4 blendOpSrc71 = ( saturate( (( blendOpDest70 > 0.5 ) ? ( 1.0 - 2.0 * ( 1.0 - blendOpDest70 ) * ( 1.0 - blendOpSrc70 ) ) : ( 2.0 * blendOpDest70 * blendOpSrc70 ) ) ));
+			float4 blendOpDest71 = ( saturate( (( blendOpDest61 > 0.5 ) ? ( 1.0 - 2.0 * ( 1.0 - blendOpDest61 ) * ( 1.0 - blendOpSrc61 ) ) : ( 2.0 * blendOpDest61 * blendOpSrc61 ) ) ));
+			float4 appendResult73 = (float4(break72.r , break72.g , break72.b , 0.0));
+			c.rgb = ( ( saturate( ( blendOpSrc71 + blendOpDest71 ) )) * appendResult73 ).rgb;
+			c.a = break72;
+			return c;
+		}
+
+		inline void LightingStandardCustomLighting_GI( inout SurfaceOutputCustomLightingCustom s, UnityGIInput data, inout UnityGI gi )
+		{
+			s.GIData = data;
+		}
+
+		void surf( Input i , inout SurfaceOutputCustomLightingCustom o )
+		{
+			o.SurfInput = i;
+		}
+
+		ENDCG
+	}
+	CustomEditor "ASEMaterialInspector"
 }
+/*ASEBEGIN
+Version=17500
+7;1087;1906;1014;2666.648;770.4416;1.747649;True;False
+Node;AmplifyShaderEditor.TextureCoordinatesNode;33;-3007.54,-406.4805;Inherit;True;0;-1;2;3;2;SAMPLER2D;;False;0;FLOAT2;1,1;False;1;FLOAT2;0,0;False;5;FLOAT2;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
+Node;AmplifyShaderEditor.RangedFloatNode;36;-2915.601,209.2325;Float;True;Property;_Speed;Speed;6;0;Create;True;0;0;False;0;2;2;0;0;0;1;FLOAT;0
+Node;AmplifyShaderEditor.SimpleTimeNode;38;-2872.112,511.344;Inherit;False;1;0;FLOAT;1;False;1;FLOAT;0
+Node;AmplifyShaderEditor.RotatorNode;35;-2600.688,-169.1503;Inherit;True;3;0;FLOAT2;0,0;False;1;FLOAT2;0.5,0.5;False;2;FLOAT;-1;False;1;FLOAT2;0
+Node;AmplifyShaderEditor.RotatorNode;34;-2589.324,-557.4547;Inherit;True;3;0;FLOAT2;0,0;False;1;FLOAT2;0.5,0.5;False;2;FLOAT;1;False;1;FLOAT2;0
+Node;AmplifyShaderEditor.SimpleMultiplyOpNode;37;-2582.253,317.8329;Inherit;False;2;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0
+Node;AmplifyShaderEditor.SamplerNode;47;-2168.425,-690.3228;Inherit;True;Property;_Alpha_1;Alpha_1;3;0;Create;True;0;0;False;0;-1;431b832724ed9a1449068b573036b180;431b832724ed9a1449068b573036b180;True;0;False;white;Auto;False;Object;-1;Auto;Texture2D;6;0;SAMPLER2D;;False;1;FLOAT2;0,0;False;2;FLOAT;0;False;3;FLOAT2;0,0;False;4;FLOAT2;0,0;False;5;FLOAT;1;False;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
+Node;AmplifyShaderEditor.SamplerNode;42;-2152.974,-135.4713;Inherit;True;Property;_Alpha_2;Alpha_2;4;0;Create;True;0;0;False;0;-1;7292eef4cf7686443822412034c6aca0;7292eef4cf7686443822412034c6aca0;True;0;False;white;Auto;False;Object;-1;Auto;Texture2D;6;0;SAMPLER2D;;False;1;FLOAT2;0,0;False;2;FLOAT;0;False;3;FLOAT2;0,0;False;4;FLOAT2;0,0;False;5;FLOAT;1;False;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
+Node;AmplifyShaderEditor.SinOpNode;39;-2349.956,318.4403;Inherit;True;1;0;FLOAT;0;False;1;FLOAT;0
+Node;AmplifyShaderEditor.SamplerNode;60;-1508.748,668.6646;Inherit;True;Property;_Alpha_3;Alpha_3;5;0;Create;True;0;0;False;0;-1;dc5e9806e6db95443b4d4f1780ee5a6b;dc5e9806e6db95443b4d4f1780ee5a6b;True;0;False;white;Auto;False;Object;-1;Auto;Texture2D;6;0;SAMPLER2D;;False;1;FLOAT2;0,0;False;2;FLOAT;0;False;3;FLOAT2;0,0;False;4;FLOAT2;0,0;False;5;FLOAT;1;False;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
+Node;AmplifyShaderEditor.BlendOpsNode;57;-1441.425,-45.64845;Inherit;True;Overlay;True;3;0;FLOAT;0;False;1;COLOR;0,0,0,0;False;2;FLOAT;1;False;1;COLOR;0
+Node;AmplifyShaderEditor.BlendOpsNode;56;-1395.018,-246.7728;Inherit;False;Overlay;True;3;0;COLOR;0,0,0,0;False;1;FLOAT;0;False;2;FLOAT;1;False;1;COLOR;0
+Node;AmplifyShaderEditor.BlendOpsNode;64;-1090.164,452.3339;Inherit;True;Overlay;True;3;0;FLOAT;0;False;1;COLOR;0,0,0,0;False;2;FLOAT;1;False;1;COLOR;0
+Node;AmplifyShaderEditor.SimpleAddOpNode;58;-1062.58,-108.5833;Inherit;True;2;2;0;COLOR;0,0,0,0;False;1;COLOR;0,0,0,0;False;1;COLOR;0
+Node;AmplifyShaderEditor.ColorNode;68;-1524.011,-517.4119;Inherit;False;Property;_Color2;Color 2;1;0;Create;True;0;0;False;0;1,1,1,0;1,1,1,0;True;0;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
+Node;AmplifyShaderEditor.ColorNode;66;-1747.549,-1105.17;Inherit;False;Property;_Color3;Color 3;2;0;Create;True;0;0;False;0;1,1,1,0;1,1,1,0;True;0;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
+Node;AmplifyShaderEditor.BlendOpsNode;67;-1309.54,-1025.807;Inherit;True;Overlay;True;3;0;COLOR;0,0,0,0;False;1;COLOR;0,0,0,0;False;2;FLOAT;1;False;1;COLOR;0
+Node;AmplifyShaderEditor.BlendOpsNode;65;-763.7799,169.0138;Inherit;True;Overlay;True;3;0;COLOR;0,0,0,0;False;1;COLOR;0,0,0,0;False;2;FLOAT;1;False;1;COLOR;0
+Node;AmplifyShaderEditor.BlendOpsNode;69;-1223.904,-662.2064;Inherit;True;Overlay;True;3;0;COLOR;0,0,0,0;False;1;COLOR;0,0,0,0;False;2;FLOAT;1;False;1;COLOR;0
+Node;AmplifyShaderEditor.ColorNode;63;-1392.006,954.5693;Inherit;False;Property;_Color1;Color 1;0;0;Create;True;0;0;False;0;1,1,1,0;1,1,1,0;True;0;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
+Node;AmplifyShaderEditor.BreakToComponentsNode;72;-351.8826,-29.08253;Inherit;True;COLOR;1;0;COLOR;0,0,0,0;False;16;FLOAT;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4;FLOAT;5;FLOAT;6;FLOAT;7;FLOAT;8;FLOAT;9;FLOAT;10;FLOAT;11;FLOAT;12;FLOAT;13;FLOAT;14;FLOAT;15
+Node;AmplifyShaderEditor.BlendOpsNode;70;-829.3257,-890.396;Inherit;True;Overlay;True;3;0;COLOR;0,0,0,0;False;1;COLOR;0,0,0,0;False;2;FLOAT;1;False;1;COLOR;0
+Node;AmplifyShaderEditor.BlendOpsNode;61;-993.2665,794.1453;Inherit;True;Overlay;True;3;0;COLOR;0,0,0,0;False;1;COLOR;0,0,0,0;False;2;FLOAT;1;False;1;COLOR;0
+Node;AmplifyShaderEditor.DynamicAppendNode;73;-117.9176,-235.7903;Inherit;True;FLOAT4;4;0;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT;0;False;3;FLOAT;0;False;1;FLOAT4;0
+Node;AmplifyShaderEditor.BlendOpsNode;71;-355.5479,-628.5644;Inherit;True;LinearDodge;True;3;0;COLOR;0,0,0,0;False;1;COLOR;0,0,0,0;False;2;FLOAT;1;False;1;COLOR;0
+Node;AmplifyShaderEditor.SimpleMultiplyOpNode;74;42.09265,-519.2867;Inherit;True;2;2;0;COLOR;0,0,0,0;False;1;FLOAT4;0,0,0,0;False;1;COLOR;0
+Node;AmplifyShaderEditor.StandardSurfaceOutputNode;2;364.8396,-360.1541;Float;False;True;-1;2;ASEMaterialInspector;0;0;CustomLighting;CVR_VFX_Shaders/CVR_VFX_Rotating;False;False;False;False;False;False;False;False;False;False;False;False;False;False;True;False;False;False;False;False;False;Back;0;False;-1;0;False;-1;False;0;False;-1;0;False;-1;False;0;Transparent;0.5;True;False;0;False;Transparent;;Transparent;All;14;all;True;True;True;True;0;False;-1;False;0;False;-1;255;False;-1;255;False;-1;0;False;-1;0;False;-1;0;False;-1;0;False;-1;0;False;-1;0;False;-1;0;False;-1;0;False;-1;False;2;15;10;25;False;0.5;False;2;5;False;-1;10;False;-1;2;5;False;-1;10;False;-1;0;False;-1;0;False;-1;0;False;0;0,0,0,0;VertexOffset;True;False;Cylindrical;False;Relative;0;;-1;-1;-1;-1;0;False;0;0;False;-1;-1;0;False;-1;0;0;0;False;0.1;False;-1;0;False;-1;15;0;FLOAT3;0,0,0;False;1;FLOAT3;0,0,0;False;2;FLOAT3;0,0,0;False;3;FLOAT3;0,0,0;False;4;FLOAT;0;False;6;FLOAT3;0,0,0;False;7;FLOAT3;0,0,0;False;8;FLOAT;0;False;9;FLOAT;0;False;10;FLOAT;0;False;13;FLOAT3;0,0,0;False;11;FLOAT3;0,0,0;False;12;FLOAT3;0,0,0;False;14;FLOAT4;0,0,0,0;False;15;FLOAT3;0,0,0;False;0
+WireConnection;35;0;33;0
+WireConnection;34;0;33;0
+WireConnection;37;0;36;0
+WireConnection;37;1;38;0
+WireConnection;47;1;34;0
+WireConnection;42;1;35;0
+WireConnection;39;0;37;0
+WireConnection;57;0;39;0
+WireConnection;57;1;42;0
+WireConnection;56;0;47;0
+WireConnection;56;1;39;0
+WireConnection;64;0;39;0
+WireConnection;64;1;60;0
+WireConnection;58;0;56;0
+WireConnection;58;1;57;0
+WireConnection;67;0;66;0
+WireConnection;67;1;42;0
+WireConnection;65;0;58;0
+WireConnection;65;1;64;0
+WireConnection;69;0;47;0
+WireConnection;69;1;68;0
+WireConnection;72;0;65;0
+WireConnection;70;0;67;0
+WireConnection;70;1;69;0
+WireConnection;61;0;60;0
+WireConnection;61;1;63;0
+WireConnection;73;0;72;0
+WireConnection;73;1;72;1
+WireConnection;73;2;72;2
+WireConnection;71;0;70;0
+WireConnection;71;1;61;0
+WireConnection;74;0;71;0
+WireConnection;74;1;73;0
+WireConnection;2;9;72;0
+WireConnection;2;13;74;0
+ASEEND*/
+//CHKSM=2961C0D08712D67B657D58E87032BF0C6133147D
